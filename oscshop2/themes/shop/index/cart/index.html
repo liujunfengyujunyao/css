@@ -1,0 +1,196 @@
+{extend name="./themes/shop/index/public/base.html" /}
+{block name="content"}
+    <div class="main">
+      <div class="container">
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12 col-sm-12">
+            <h1>购物车</h1>
+             {if condition="$goods"}
+            <div class="goods-page">
+              <div class="goods-data clearfix">
+                <div class="table-wrapper-responsive">
+                <table summary="Shopping cart">
+                  <tr>
+                    <th class="goods-page-image">图片</th>
+                    <th class="goods-page-description">名称及规格</th>
+                    <th class="goods-page-ref-no">货号</th>
+                    <th class="goods-page-quantity">数量</th>
+                    <th class="goods-page-price">单价</th>
+                    <th class="goods-page-total" colspan="2">总计</th>
+                  </tr>
+                  {volist name="goods" id="d"}
+                  <tr>
+                    <td class="goods-page-image">
+                      <a href="javascript:;"><img src="IMG_ROOT{$d.image}" alt="Berry Lace Dress"></a>
+                    </td>
+                    <td class="goods-page-description">
+                      <h3><a href="javascript:;">{$d.name}</a></h3>
+                      <p><strong>Item 1</strong> - Color: Green; Size: S</p>
+                      <em>More info is here</em>
+                    </td>
+                    <td class="goods-page-ref-no">
+                      {$d.model}
+                    </td>
+                    <td class="goods-page-quantity">
+                      <div class="product-quantity">
+                          <div class="input-group bootstrap-touchspin input-group-sm" id="select_number{$d.cart_id}">
+                          	<span class="input-group-btn">
+                          		<button class="btn quantity-down bootstrap-touchspin-down increase" onclick='changeQty(1,"{$d.goods_id}","{$d.cart_id}","{$d.cart_id}"); return false;'  type="button">
+                          			<i class="fa fa-angle-down"></i>
+                          		</button>
+                          	</span>
+                          	<input id="product-quantity" onkeyup='change_quantity("{$d.goods_id}",this,"{$d.cart_id}","{$d.cart_id}");' type="text" value="{$d.quantity}" readonly="" class="form-control input-sm" style="display: block;" name="quantity{$d.goods_id}">
+                          	<span class="input-group-btn">
+                          		<button onclick='changeQty(0,"{$d.goods_id}","{$d.cart_id}","{$d.cart_id}"); return false;' class="decrease btn quantity-up bootstrap-touchspin-up" type="button">
+                          			<i class="fa fa-angle-up"></i>
+                          		</button>
+                          	</span>
+                          </div>
+                      </div>
+                    </td>
+                    <td class="goods-page-price">
+                      <strong><span>$</span><?php echo round($d['price'] ,2); ?></strong>
+                    </td>
+                    <td class="goods-page-total">
+                      <strong><span>$</span><?php echo round($d['total'] ,2); ?></strong>
+                    </td>
+                    <td class="del-goods-col">
+                      <a class="del-goods" href="{:url('/remove/'.$d['cart_id'])}">&nbsp;</a>
+                    </td>
+                  </tr>
+                  {/volist}
+                </table>
+                </div>
+
+                <div class="shopping-total">
+                  <ul>
+                    <li>
+                      <em>小计</em>
+                      <strong class="price"><span>$</span><?php echo $total_price; ?></strong>
+                    </li>
+                    <li>
+                      <em>运费</em>
+                      <strong class="price"><span>$</span>0.00</strong>
+                    </li>
+                    <li class="shopping-total-price">
+                      <em>总计</em>
+                      <strong class="price"><span>$</span><?php echo $total_price; ?></strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="btn btn-default" type="submit">继续购物 <i class="fa fa-shopping-cart"></i></button>
+              <button class="btn btn-primary" type="submit">结算 <i class="fa fa-check"></i></button>
+            </div>
+            {else /}
+            <div class="shopping-cart-page">
+              <div class="shopping-cart-data clearfix">
+                <p style="text-align: center;padding:30px;font-size:16px;">您的购物车还没有商品!</p>
+              </div>
+            </div>
+            {/if}
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+
+        <!-- BEGIN SIMILAR PRODUCTS -->
+        <div class="row margin-bottom-40">
+          <div class="col-md-12 col-sm-12">
+            <h2>您可能还需要</h2>
+            <div class="owl-carousel owl-carousel4">
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                  <div class="sticker sticker-new"></div>
+                </div>
+              </div>
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress2</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                </div>
+              </div>
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k3.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k3.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress3</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                </div>
+              </div>
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k4.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k4.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress4</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                  <div class="sticker sticker-sale"></div>
+                </div>
+              </div>
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k1.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k1.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress5</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                </div>
+              </div>
+              <div>
+                <div class="product-item">
+                  <div class="pi-img-wrapper">
+                    <img src="__SVIEW__/pages/img/products/k2.jpg" class="img-responsive" alt="Berry Lace Dress">
+                    <div>
+                      <a href="__SVIEW__/pages/img/products/k2.jpg" class="btn btn-default fancybox-button">Zoom</a>
+                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
+                    </div>
+                  </div>
+                  <h3><a href="shop-item.html">Berry Lace Dress6</a></h3>
+                  <div class="pi-price">$29.00</div>
+                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END SIMILAR PRODUCTS -->
+      </div>
+    </div>
+{/block}
