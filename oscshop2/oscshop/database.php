@@ -2,10 +2,10 @@
 return [
     'type'        => 'mysql',
     'dsn'         => '',   
-    'hostname'    => '127.0.0.1',  
-    'database'    => 'oscshop2',   
+    'hostname'    => 'pipiyaode.mysql.rds.aliyuncs.com',  
+    'database'    => 'heal',   
     'username'    => 'root',    
-    'password'    => 'root',    
+    'password'    => 'Apple116165',    
     'hostport'    => '3306',    
     'params'      => [],   
     'charset'     => 'utf8',    
