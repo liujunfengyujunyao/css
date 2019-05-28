@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1558943903;s:75:"D:\BaiduNetdiskDownload\oscshop\oscshop2\themes\shop\index\public\base.html";i:1558949953;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1559009957;s:75:"D:\BaiduNetdiskDownload\oscshop\oscshop2\themes\shop\index\public\base.html";i:1559010528;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -127,7 +127,7 @@
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="shop-index.html"><img src="/public/static/shop_res/corporate/img/logos/logo-shop-red.png" alt="Metronic Shop UI"></a>
+        <a class="site-logo" href="shop-index.html"><img src="/public/static/shop_res/corporate/img/logos/logo.jpg" alt="Metronic Shop UI"></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -254,7 +254,7 @@
                             </p>
                             <a class="carousel-btn" href="#" data-animation="animated fadeInUp">See More Details</a>
                         </div>
-                        <img class="carousel-position-five animate-delay hidden-sm hidden-xs" src="/public/static/shop_res/pages/img/shop-slider/slide2/price.png" alt="Price" data-animation="animated zoomIn">
+                        <!-- <img class="carousel-position-five animate-delay hidden-sm hidden-xs" src="/public/static/shop_res/pages/img/shop-slider/slide2/price.png" alt="Price" data-animation="animated zoomIn"> -->
                     </div>
                 </div>
 

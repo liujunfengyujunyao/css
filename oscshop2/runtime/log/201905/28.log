@@ -1,0 +1,327 @@
+---------------------------------------------------------------
+[ 2019-05-28T10:16:10+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.197989s] [吞吐率：5.05req/s] [内存消耗：3,626.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:18:34+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.059750s] [吞吐率：16.74req/s] [内存消耗：3,626.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:18:52+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.050813s] [吞吐率：19.68req/s] [内存消耗：3,626.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:19:13+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.054693s] [吞吐率：18.28req/s] [内存消耗：3,626.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:19:21+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.095962s] [吞吐率：10.42req/s] [内存消耗：4,003.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:29:50+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.100305s] [吞吐率：9.97req/s] [内存消耗：4,003.42kb] [文件加载：47]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:32:52+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.179041s] [吞吐率：5.59req/s] [内存消耗：3,626.71kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T10:33:50+08:00 ] 127.0.0.1 GET www.osc.com/
+[运行时间：0.051755s] [吞吐率：19.32req/s] [内存消耗：3,626.71kb] [文件加载：45]
+[ info ] [ LANG ] D:\BaiduNetdiskDownload\oscshop\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.osc.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1558926031; PHPSESSID=12162umunu4nqpo1q8e5opahi1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
