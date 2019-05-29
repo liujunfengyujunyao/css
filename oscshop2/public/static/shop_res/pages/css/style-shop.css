@@ -414,9 +414,9 @@ Header and header elements
 }
 .product-item .add2cart {
 	float: right;
-	color: #a8aeb3;
-	border: 1px #ededed solid;
-	padding: 3px 6px;
+	color: #fff !important;
+	background: #E84D1C !important;
+	border-color: #E84D1C;
 }
 .product-item .add2cart:hover {
 	color: #fff !important;
@@ -942,7 +942,18 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 .product-page .nav-tabs > li {
     margin-top: 1px;
 }
-.product-page-options {
+.description ul.list-unstyled{
+	overflow: hidden;
+}
+.description ul.list-unstyled li{
+	float:left;
+	width:50%;
+	margin:10px 0;
+	padding:0 10px;
+	color:#8e9ca8;
+
+}
+.product-page-options{
 	border-top: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
 	padding: 20px 0;
@@ -951,17 +962,20 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	overflow: hidden;
 }
 .product-page-options .pull-left {
-	margin-right: 40px;
+	margin:10px 0;
+	width:50%;
 }
 .product-page-options .pull-left:last-child {
 	margin-right: 0;
 }
 .product-page-options label {
+	width:30%;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #8e9ca8;
+	color: #3e4d5c;
 	font-family: "PT Sans Narrow", sans-serif;
 	float: left;
+	text-align: right;
 	margin-right: 10px;
 	padding-top: 2px;
 }
@@ -975,22 +989,27 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	border-bottom: 1px solid #f4f4f4;
 	padding-bottom: 20px;
 	margin-bottom: 18px;
+	padding-left:20px;
 }
 .product-quantity,
 .product-quantity .input-group {
 	width: 70px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 40px;
 	position: relative;
 }
 table .product-quantity,
 table .product-quantity .input-group {
 	margin-right: 0;
 }
+.product-page-cart .btn.buy-now{
+	background: #D8A373;
+} 
 .product-page-cart .btn {
 	padding: 7px 20px;
 	font-size: 13px;
 	height: 38px;
+	width:30%;
 }
 .product-quantity input.form-control {
 	border: none;
