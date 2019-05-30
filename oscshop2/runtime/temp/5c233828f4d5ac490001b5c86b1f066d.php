@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1559027950;s:75:"D:\BaiduNetdiskDownload\oscshop\oscshop2\themes\shop\index\public\base.html";i:1559109076;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1559207335;s:58:"D:\WWW\osc\css\oscshop2\themes\shop\index\public\base.html";i:1559207335;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -856,8 +856,11 @@
             Layout.initOWL();
             Layout.initImageZoom();
             Layout.initTouchspin();
+            Layout.initUniform();
             // Layout.initTwitter();
         });
+        
+
         function get_url_attr(name) {
           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
           var r = window.location.search.substr(1).match(reg);

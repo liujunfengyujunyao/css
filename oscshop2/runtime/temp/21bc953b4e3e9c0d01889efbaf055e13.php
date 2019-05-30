@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin\view\brand\edit.html";i:1547203759;s:76:"D:\BaiduNetdiskDownload\oscshop\oscshop2\oscshop\admin\view\public\base.html";i:1547203759;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin\view\brand\edit.html";i:1559014564;s:59:"D:\WWW\osc\css\oscshop2\oscshop\admin\view\public\base.html";i:1559014564;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
