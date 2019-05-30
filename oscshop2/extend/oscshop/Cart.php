@@ -291,13 +291,13 @@ class Cart{
 					foreach ($v as $k1 => $v1) {
 						//需要扣减库存的要验证数量
 						if($quantity>$option[$k][$v1]['quantity']&&($option[$k][$v1]['subtract']==1)){
-							return ['error'=>$option[$k][$v1]['name'].'数量不足，剩余'.$option[$k][$v1]['quantity']];
+							return ['error'=>$option[$k][$v1]['name'].'数量不足，剩余'.$option[$k][$v1]['quantity'],'data'=>$option[$k][$v1]['quantity']];
 						}
 					}					
 				}else{
 					//需要扣减库存的要验证数量
 					if($quantity>$option[$k][$v]['quantity']&&($option[$k][$v]['subtract']==1)){
-					return ['error'=>$option[$k][$v]['name'].'数量不足，剩余'.$option[$k][$v]['quantity']];
+					return ['error'=>$option[$k][$v]['name'].'数量不足，剩余'.$option[$k][$v]['quantity'],'data'=>$option[$k][$v]['quantity']];
 					}
 				}				
 			}	
@@ -307,7 +307,7 @@ class Cart{
 			
 			$goods_quantity=$this->get_goods_quantity($goods_id);
 			if($quantity>$goods_quantity['quantity']&&($goods['subtract']==1)){
-				return ['error'=>'数量不足，剩余'.$goods_quantity['quantity']];
+				return ['error'=>'数量不足，剩余'.$goods_quantity['quantity'],'data'=>$goods_quantity['quantity']];
 			}
 		}				
 	

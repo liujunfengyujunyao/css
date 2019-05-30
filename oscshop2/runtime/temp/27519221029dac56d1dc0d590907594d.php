@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:35:"./themes/shop/index/cart\index.html";i:1558950036;s:36:"./themes/shop/index/public/base.html";i:1558949953;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:35:"./themes/shop/index/cart\index.html";i:1559114112;s:36:"./themes/shop/index/public/base.html";i:1559109076;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -50,6 +50,12 @@
   <link href="/public/static/shop_res/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="/public/static/shop_res/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
+  <style type="text/css">
+    .ecommerce .site-logo{
+      padding-top:20px;
+      margin-right:20px;
+    }
+  </style>
   
 </head>
 <!-- Head END -->
@@ -57,7 +63,7 @@
 <!-- Body BEGIN -->
 <body class="ecommerce">
     <!-- BEGIN STYLE CUSTOMIZER -->
-    <div class="color-panel hidden-sm">
+    <!-- <div class="color-panel hidden-sm">
       <div class="color-mode-icons icon-color"></div>
       <div class="color-mode-icons icon-color-close"></div>
       <div class="color-mode">
@@ -71,54 +77,55 @@
           <li class="color-turquoise" data-style="turquoise"></li>
         </ul>
       </div>
-    </div>
-    <!-- END BEGIN STYLE CUSTOMIZER --> 
+    </div> -->
+    <!-- END BEGIN STYLE CUSTOMIZER  -->
 
     <!-- BEGIN TOP BAR -->
     <div class="pre-header">
         <div class="container">
             <div class="row">
+                
+                <!-- BEGIN TOP BAR MENU -->
+                <?php if(is_module_install('member')): ?>
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-left">
+                        <!-- <li><a href="shop-wishlist.html">My Wishlist</a></li>
+                        <li><a href="shop-checkout.html">Checkout</a></li> -->
+                        <?php if(member('uid')): ?>
+                        <li><a href="<?php echo url('member/order_member/index'); ?>">个人中心</a></li>
+                        <li><a href="<?php echo url('/logout'); ?>">退出登录</a></li>
+                        <?php else: ?>
+                        <li>您好，请【<a class="pointer" id="login">登录</a>】</li>
+                        <li>欢迎【<a class="pointer" id="reg">注册</a>】</li>
+                        <?php endif; ?>
+                    </ul>
+                </div>
+                <?php endif; ?>
+                <!-- END TOP BAR MENU -->
                 <!-- BEGIN TOP BAR LEFT PART -->
                 <div class="col-md-6 col-sm-6 additional-shop-info">
-                    <ul class="list-unstyled list-inline">
-                        <li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><i class="fa fa-weixin" style="font-size: 16px;"></i> <span>yubkhokhjk</span></li>
                         <!-- BEGIN CURRENCIES -->
-                        <li class="shop-currencies">
+                        <!-- <li class="shop-currencies">
                             <a href="javascript:void(0);">鈧</a>
                             <a href="javascript:void(0);">拢</a>
                             <a href="javascript:void(0);" class="current">$</a>
-                        </li>
+                        </li> -->
                         <!-- END CURRENCIES -->
                         <!-- BEGIN LANGS -->
-                        <li class="langs-block">
+                       <!--  <li class="langs-block">
                             <a href="javascript:void(0);" class="current">English </a>
                             <div class="langs-block-others-wrapper"><div class="langs-block-others">
                               <a href="javascript:void(0);">French</a>
                               <a href="javascript:void(0);">Germany</a>
                               <a href="javascript:void(0);">Turkish</a>
                             </div></div>
-                        </li>
+                        </li> -->
                         <!-- END LANGS -->
                     </ul>
                 </div>
                 <!-- END TOP BAR LEFT PART -->
-                <!-- BEGIN TOP BAR MENU -->
-                <?php if(is_module_install('member')): ?>
-                <div class="col-md-6 col-sm-6 additional-nav">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <!-- <li><a href="shop-wishlist.html">My Wishlist</a></li>
-                        <li><a href="shop-checkout.html">Checkout</a></li> -->
-                        <?php if(member('uid')): ?>
-                         <li><a href="<?php echo url('member/order_member/index'); ?>">个人中心</a></li>
-                        <li><a href="<?php echo url('/logout'); ?>">退出登录</a></li>
-                        <?php else: ?>
-                        <li><a class="pointer" id="reg">注册</a></li>
-                        <li><a class="pointer" id="login">登录</a></li>
-                        <?php endif; ?>
-                    </ul>
-                </div>
-                <?php endif; ?>
-                <!-- END TOP BAR MENU -->
             </div>
         </div>        
     </div>
@@ -127,7 +134,7 @@
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="shop-index.html"><img src="/public/static/shop_res/corporate/img/logos/logo-shop-red.png" alt="Metronic Shop UI"></a>
+        <a class="site-logo" href="<?php echo url('/index/'); ?>"><img src="/public/static/shop_res/corporate/img/logos/logo-red.png" alt="Metronic Shop UI" ></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -142,26 +149,28 @@
           <div class="top-cart-content-wrapper">
             <div class="top-cart-content">
               <?php if($cartlist): ?>
-              <ul class="scroller" style="height: 250px;">
+              <ul class="scroller" style="height:100%;">
                 <?php if(is_array($cartlist) || $cartlist instanceof \think\Collection || $cartlist instanceof \think\Paginator): $i = 0; $__LIST__ = $cartlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cart): $mod = ($i % 2 );++$i;?>
                 <li>
-                  <a href="<?php echo url('/goods/'.$d['goods_id']); ?>"><img src="/<?php echo $cart['image']; ?>" alt="Rolex Classic Watch" width="37" height="34"></a>
-                  <span class="cart-content-count">x 1</span>
-                  <strong><a href="<?php echo url('/goods/'.$d['goods_id']); ?>"><?php echo $cart['name']; ?></a></strong>
-                  <em><?php echo round($cart['price'] ,2); ?></em>
+                  <a href="<?php echo url('/goods/'.$cart['goods_id']); ?>"><img src="/<?php echo $cart['image']; ?>" alt="Rolex Classic Watch" width="37" height="34"></a>
+                  <span class="cart-content-count">x <?php echo $cart['quantity']; ?></span>
+                  <strong><a href="<?php echo url('/goods/'.$cart['goods_id']); ?>"><?php echo substr($cart['name'],0,72); ?>... </a><small style="color:#b0b0b0;"> <?php foreach ($cart['option'] as $option) { ?>
+                      <?php echo $option['name']; ?>:<?php echo $option['value']; ?> &nbsp;
+                      <?php } ?></small></strong>
+                  <em>￥<?php echo round($cart['price'] ,2); ?></em>
                   <a href="javascript:void(0);" class="del-goods">&nbsp;</a>
                 </li>
                  <?php endforeach; endif; else: echo "" ;endif; ?> 
               </ul>
               <div class="text-right">
-                <a href="<?php echo url('/cart/'); ?>" class="btn btn-primary">View Cart</a>
-                <a href="shop-checkout.html" class="btn btn-primary">Checkout</a>
+                <a href="<?php echo url('/cart/'); ?>" class="btn btn-primary">查看购物车</a>
+                <a href="shop-checkout.html" class="btn btn-primary">结算</a>
               </div>
               <?php else: ?>
               <div style="text-align: center;margin:20px;">您的购物车还没有商品！</div>
               <div class="text-right">
-                <a href="<?php echo url('/cart/'); ?>" class="btn btn-default">View Cart</a>
-                <a href="shop-checkout.html" class="btn btn-default">Checkout</a>
+                <a href="<?php echo url('/cart/'); ?>" class="btn btn-default">查看购物车</a>
+                <a href="shop-checkout.html" class="btn btn-default">结算</a>
               </div>
               <?php endif; ?>
             </div>
@@ -234,14 +243,18 @@
                     <th class="goods-page-total" colspan="2">总计</th>
                   </tr>
                   <?php if(is_array($goods) || $goods instanceof \think\Collection || $goods instanceof \think\Paginator): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?>
-                  <tr>
+                  <tr class="goods<?php echo $d['cart_id']; ?>">
                     <td class="goods-page-image">
                       <a href="javascript:;"><img src="/<?php echo $d['image']; ?>" alt="Berry Lace Dress"></a>
                     </td>
                     <td class="goods-page-description">
                       <h3><a href="javascript:;"><?php echo $d['name']; ?></a></h3>
-                      <p><strong>Item 1</strong> - Color: Green; Size: S</p>
-                      <em>More info is here</em>
+                      <p>
+                      <?php foreach ($d['option'] as $option) { ?>
+                      <?php echo $option['name']; ?>:<?php echo $option['value']; ?> &nbsp;&nbsp;
+                      <?php } ?>
+                      </p>
+                     <!--  <em>More info is here</em> -->
                     </td>
                     <td class="goods-page-ref-no">
                       <?php echo $d['model']; ?>
@@ -250,13 +263,13 @@
                       <div class="product-quantity">
                           <div class="input-group bootstrap-touchspin input-group-sm" id="select_number<?php echo $d['cart_id']; ?>">
                           	<span class="input-group-btn">
-                          		<button class="btn quantity-down bootstrap-touchspin-down increase" onclick='changeQty(1,"<?php echo $d['goods_id']; ?>","<?php echo $d['cart_id']; ?>","<?php echo $d['cart_id']; ?>"); return false;'  type="button">
+                          		<button class="btn quantity-down bootstrap-touchspin-down increase"  type="button">
                           			<i class="fa fa-angle-down"></i>
                           		</button>
                           	</span>
-                          	<input id="product-quantity" onkeyup='change_quantity("<?php echo $d['goods_id']; ?>",this,"<?php echo $d['cart_id']; ?>","<?php echo $d['cart_id']; ?>");' type="text" value="<?php echo $d['quantity']; ?>" readonly="" class="form-control input-sm" style="display: block;" name="quantity<?php echo $d['goods_id']; ?>">
+                          	<input id="product-quantity" type="text" value="<?php echo $d['quantity']; ?>" readonly="" onchange='change_quantity("<?php echo $d['goods_id']; ?>",this,"<?php echo $d['cart_id']; ?>","<?php echo $d['cart_id']; ?>")' class="form-control input-sm" style="display: block;" name="quantity<?php echo $d['goods_id']; ?>">
                           	<span class="input-group-btn">
-                          		<button onclick='changeQty(0,"<?php echo $d['goods_id']; ?>","<?php echo $d['cart_id']; ?>","<?php echo $d['cart_id']; ?>"); return false;' class="decrease btn quantity-up bootstrap-touchspin-up" type="button">
+                          		<button class="decrease btn quantity-up bootstrap-touchspin-up" type="button">
                           			<i class="fa fa-angle-up"></i>
                           		</button>
                           	</span>
@@ -264,10 +277,10 @@
                       </div>
                     </td>
                     <td class="goods-page-price">
-                      <strong><span>$</span><?php echo round($d['price'] ,2); ?></strong>
+                      <strong>￥<?php echo $d['price']; ?></strong>
                     </td>
                     <td class="goods-page-total">
-                      <strong><span>$</span><?php echo round($d['total'] ,2); ?></strong>
+                      <strong>￥<?php echo $d['total']; ?></strong>
                     </td>
                     <td class="del-goods-col">
                       <a class="del-goods" href="<?php echo url('/remove/'.$d['cart_id']); ?>">&nbsp;</a>
@@ -281,15 +294,15 @@
                   <ul>
                     <li>
                       <em>小计</em>
-                      <strong class="price"><span>$</span><?php echo $total_price; ?></strong>
+                      <strong class="price">￥<?php echo $total_price; ?></strong>
                     </li>
                     <li>
                       <em>运费</em>
-                      <strong class="price"><span>$</span>0.00</strong>
+                      <strong class="price">￥0.00</strong>
                     </li>
                     <li class="shopping-total-price">
                       <em>总计</em>
-                      <strong class="price"><span>$</span><?php echo $total_price; ?></strong>
+                      <strong class="price">￥<?php echo $total_price; ?></strong>
                     </li>
                   </ul>
                 </div>
@@ -412,18 +425,9 @@
     <div class="brands">
       <div class="container">
             <div class="owl-carousel owl-carousel6-brands">
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/canon.jpg" alt="canon" title="canon"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/esprit.jpg" alt="esprit" title="esprit"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/gap.jpg" alt="gap" title="gap"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/next.jpg" alt="next" title="next"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/puma.jpg" alt="puma" title="puma"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/zara.jpg" alt="zara" title="zara"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/canon.jpg" alt="canon" title="canon"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/esprit.jpg" alt="esprit" title="esprit"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/gap.jpg" alt="gap" title="gap"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/next.jpg" alt="next" title="next"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/puma.jpg" alt="puma" title="puma"></a>
-              <a href="shop-product-list.html"><img src="/public/static/shop_res/pages/img/brands/zara.jpg" alt="zara" title="zara"></a>
+               <?php if(is_array($brands) || $brands instanceof \think\Collection || $brands instanceof \think\Paginator): $i = 0; $__LIST__ = $brands;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$val): $mod = ($i % 2 );++$i;?>
+                <a href="<?php echo url('/brand/'.$val['brand_id']); ?>"><img src="/<?php echo $val['image']; ?>" alt="<?php echo $val['name']; ?>" title="<?php echo $val['name']; ?>"></a>
+               <?php endforeach; endif; else: echo "" ;endif; ?>
             </div>
         </div>
     </div>
@@ -467,51 +471,50 @@
         <div class="row">
           <!-- BEGIN BOTTOM ABOUT BLOCK -->
           <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat. Nostrud exerci tation ullamcorper suscipit lobortis nisl aliquip  commodo consequat. </p>
-            <p>Duis autem vel eum iriure dolor vulputate velit esse molestie at dolore.</p>
+            <h2>关于我们</h2>
+            <p>Health Trade为中国客户提供新西兰直购商品，正品保障 </p>
+            Email: <a href="mailto:info@metronic.com">info@metronic.com</a>
           </div>
           <!-- END BOTTOM ABOUT BLOCK -->
           <!-- BEGIN BOTTOM INFO BLOCK -->
           <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>Information</h2>
+            <h2>网站信息</h2>
             <ul class="list-unstyled">
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Delivery Information</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Customer Service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Order Tracking</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Shipping &amp; Returns</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="contacts.html">Contact Us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Careers</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Payment Methods</a></li>
+              <li><a href="javascript:;">关于我们</a></li>
+              <li><a href="javascript:;">联系我们</a></li>
+              <li><a href="javascript:;">帮助中心</a></li>
+              
             </ul>
           </div>
           <!-- END INFO BLOCK -->
 
           <!-- BEGIN TWITTER BLOCK --> 
           <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2 class="margin-bottom-0">Latest Tweets</h2>
+            <h2>购物信息</h2>
+             <ul class="list-unstyled">
+                <li> <a href="javascript:;">支付方式</a></li>
+                <li> <a href="contacts.html">配送方式</a></li>
+                <li><a href="javascript:;">取消订单及退货</a></li>
+                <li><a href="javascript:;">包裹赔付</a></li>
+            </ul>
                   
           </div>
           <!-- END TWITTER BLOCK -->
 
           <!-- BEGIN BOTTOM CONTACTS -->
           <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>Our Contacts</h2>
-            <address class="margin-bottom-40">
-              35, Lorem Lis Street, Park Ave<br>
-              California, US<br>
-              Phone: 300 323 3456<br>
-              Fax: 300 323 1456<br>
-              Email: <a href="mailto:info@metronic.com">info@metronic.com</a><br>
-              Skype: <a href="skype:metronic">metronic</a>
-            </address>
+            <h2>其他信息</h2>
+             <ul class="list-unstyled">
+                <li> <a href="javascript:;">隐私保护</a></li>
+                <li> <a href="contacts.html">网站使用条款</a></li>
+            </ul>
           </div>
           <!-- END BOTTOM CONTACTS -->
         </div>
         <hr>
         <div class="row">
           <!-- BEGIN SOCIAL ICONS -->
-          <div class="col-md-6 col-sm-6">
+        <!--   <div class="col-md-6 col-sm-6">
             <ul class="social-icons">
               <li><a class="rss" data-original-title="rss" href="javascript:;"></a></li>
               <li><a class="facebook" data-original-title="facebook" href="javascript:;"></a></li>
@@ -522,22 +525,22 @@
               <li><a class="vimeo" data-original-title="vimeo" href="javascript:;"></a></li>
               <li><a class="skype" data-original-title="skype" href="javascript:;"></a></li>
             </ul>
-          </div>
+          </div> -->
           <!-- END SOCIAL ICONS -->
           <!-- BEGIN NEWLETTER -->
-          <div class="col-md-6 col-sm-6">
+         <!--  <div class="col-md-6 col-sm-6">
             <div class="pre-footer-subscribe-box pull-right">
               <h2>Newsletter</h2>
               <form action="#">
                 <div class="input-group">
-                  <input type="text" placeholder="youremail@mail.com" class="form-control">
+                  <input type="text" placeholder="请输入您的邮箱" class="form-control">
                   <span class="input-group-btn">
                     <button class="btn btn-primary" type="submit">Subscribe</button>
                   </span>
                 </div>
               </form>
             </div> 
-          </div>
+          </div> -->
           <!-- END NEWLETTER -->
         </div>
       </div>
@@ -550,7 +553,7 @@
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-4 col-sm-4 padding-top-10">
-            2015 漏 Keenthemes. ALL Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="妯℃澘涔嬪">妯℃澘涔嬪</a> - Collect from <a href="http://www.cssmoban.com/" title="缃戦〉妯℃澘" target="_blank">缃戦〉妯℃澘</a>
+            Copyright 2017 - Optimlife Pte Limited - All rights served.</a>
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
@@ -682,19 +685,72 @@
         $('#reg').click(function(){
           art.dialog.open("/reg", 
             { id:'reg',
-              title: '注册',
+              title: '新 用 户注 册',
               lock: true
             });
         });
         $('#login').click(function(){
           art.dialog.open("/login", 
             { id:'login',
-              title: '登录',
+              title: '用 户 登 录',
               lock: true
             });
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </body>
+
+<script>  
+
+function update_cart(id,qty,cart_id,key){
+  $.post(
+    '<?php echo url("/update"); ?>',
+    {id:id,q:qty,cart_id:cart_id},
+    function(json){     
+      
+      if (json['success']) {        
+        
+        $('#cart a').text(json['success']);
+        
+        $('#select_number' + key).find("input").val(qty);
+        
+        $('.goods' + key).find("td.goods-page-price>strong").text('￥ '+json['price']);
+        
+        $('.goods' + key).find("td.goods-page-total>strong").text('￥ '+json['total_price']);
+        
+        $('.shopping-total-price>strong').text('￥ '+json['total_all_price']);
+        
+        $('#weight').text(json['weight']);
+        
+      }else if(json['error']){
+        if(json['data']){
+          $('#select_number' + key).find("input").val(json['data']);
+        }
+        alert(json['error']);     
+        
+      } 
+    }
+  );
+}
+
+function change_quantity(goods_id,input,cart_id,key){
+  var qty=input.value;  
+  update_cart(goods_id,qty,cart_id,key);
+}
+
+// function changeQty(increase,goods_id,cart_id,key) {
+//     var qty = parseInt($('#select_number' + key).find("input").val());  
+//     if ( !isNaN(qty) ) {
+//       //增加
+//       if(increase){     
+//         update_cart(goods_id,(qty+1),cart_id,key);
+//       }else{
+//         update_cart(goods_id,(qty-1),cart_id,key);
+//       }     
+//     }
+// } 
+
+</script>
+
 <!-- END BODY -->
 </html>	

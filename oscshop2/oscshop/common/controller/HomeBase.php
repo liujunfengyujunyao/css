@@ -26,6 +26,10 @@ class HomeBase extends Base{
 		}
 		$this->assign('cartlist',$cart_list);
 		$this->assign('total_price',$total_all_price);   
+		$brands=Db::name('brand')
+			->alias('b')				
+			->select();
+		$this->assign('brands',$brands);
 		
 	}
 

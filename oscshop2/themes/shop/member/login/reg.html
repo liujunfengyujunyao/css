@@ -16,9 +16,9 @@
 		<li><span>昵称：</span><input class="text" name="nickname" type="text" /></li>	
 		{if condition="1 eq config('use_captcha')"}	
 		<li class="clearfix"><span>验证码：</span><input class="text" name="captcha" type="text" /></li>
-		<li class="clearfix"><span></span><img class="verifyimg reloadverify" src="{:url('login/verify')}" alt="captcha" /></li>
+		<li class="clearfix"><img class="verifyimg reloadverify" src="{:url('login/verify')}" alt="captcha" /></li>
 		{/if}	
-		<li><span></span><input type="submit" id="send" value="注册" /></li>
+		<li><input type="submit" id="send" value="注册" /></li>
 	</ul>	
 </body>
 <script src="__PUBLIC__/js/jquery/jquery-2.0.3.min.js"></script>

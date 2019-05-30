@@ -14,7 +14,7 @@ return [
         // 视图基础目录，配置目录为所有模块的视图起始目录
         'view_base'    => '',
         // 当前模板的视图目录 留空为自动获取
-        'view_path'    => './themes/'.THEMES.'/'.request()->module().'/',
+        'view_path'    => './themes/'.STHEMES.'/'.request()->module().'/',
         // 模板后缀
         'view_suffix'  => 'html',
         // 模板文件名分隔符
