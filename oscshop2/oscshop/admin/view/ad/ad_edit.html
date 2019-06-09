@@ -1,0 +1,121 @@
+{extend name="public:base" /}
+{block name="content"}
+<div class="page-header">
+	<h1>
+		广告
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			广告管理
+		</small>
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			添加模块
+		</small>			
+	
+	</h1>
+</div>
+
+<div class="row">
+	<div class="col-xs-12">	
+		
+		<div class="form-horizontal">
+			
+			{if condition="$Request.param.id"}
+			<input name="id" type="hidden" value="{$Request.param.id}" />
+			{/if}
+			
+			<div class="form-group">
+                <label class="col-sm-2 control-label" for="input-image">
+                	广告图标
+                </label>	                
+	            <div class="col-sm-10" id="thumb">
+	                  <a id="thumb-image" href="#" data-toggle="image" class="img-thumbnail">
+		                  	{if condition="!empty($cat['image'])"}
+		                  		<img src="IMG_ROOT{$cat.image|resize=100,100}" />
+		                  	{else /}
+		                  		<img src="__PUBLIC__/image/no_image_100x100.jpg" />
+		                  	{/if}
+							</a>
+	                  <input type="hidden" name="image" value="{$cat.image|default=''}" id="input-image" />
+	            </div>		            
+		    </div> 
+	
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left"> * 广告名称 </label>
+				<div class="col-sm-5">
+					<div class="clearfix">
+						<input name="name" class="col-xs-10 col-sm-5"  value="{$cat.name|default=''}" type="text">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left"> * 链接地址 </label>
+				<div class="col-sm-5">
+					<div class="clearfix">
+						<input name="url" class="col-xs-10 col-sm-5"  value="{$cat.url|default=''}" type="text">
+					</div>
+				</div>
+			</div>
+			
+			<div class="space-4"></div>
+			
+			<!-- <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-description">关键字：</label>
+                <div class="col-sm-10">
+                  <textarea name="meta_keyword" class="form-control" rows="5">{$cat.meta_keyword|default=''}</textarea>	
+                </div>
+          	</div> -->
+          	 	<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left"> * 上级分类 </label>
+				<div class="col-sm-5">
+					<div class="clearfix">
+						<select name="pid">
+						
+									{volist name="category" id="c"}
+									<option value="{$c.module_id}">{$c.name}</option>
+									{/volist}
+								
+						</select>
+					</div>
+				</div>
+			</div>
+          	<div class="form-group">
+                <label class="col-sm-2 control-label" for="input-description">描述：</label>
+                <div class="col-sm-10">
+                  <textarea name="meta_description" class="form-control" rows="5">{$cat.meta_description|default=''}</textarea>	
+                </div>
+          	</div>
+			
+			
+	
+          	
+        
+			
+			<div class="form-group">
+				<label class="col-sm-1 control-label no-padding-left"> </label>	
+				<div class="col-sm-11">
+					<input id="send" name="send" type="submit" value="提交" class="btn btn-primary" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{/block}
+{block name="javascript"}
+
+<script>
+var back_index="{:url('ad/ad_index')}";
+
+$('#send').click(function(){
+	$.post(
+		'{$action}',
+		$('input[type=\'text\'],input[type=\'hidden\'],select,textarea'),
+		function(d){
+			art_dialog(d,back_index);
+		}
+	);
+});
+
+
+</script>							
+{/block}

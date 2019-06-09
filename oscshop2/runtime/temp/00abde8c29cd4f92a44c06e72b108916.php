@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin\view\brand\index.html";i:1559014564;s:59:"D:\WWW\osc\css\oscshop2\oscshop\admin\view\public\base.html";i:1559014564;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./oscshop/admin\view\ad\module_index.html";i:1560068318;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -76,6 +76,7 @@
 				<div class="navbar-header pull-left">
 					<a href="<?php echo url('admin/Index/index'); ?>" class="navbar-brand">
 						<small>							
+							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 						</small>
 					</a>
@@ -207,15 +208,19 @@
 
 <div class="page-header">
 	<h1>	
-		<?php echo $breadcrumb1; ?>
+		广告
 		<small>
 			<i class="ace-icon fa fa-angle-double-right"></i>
-			<?php echo $breadcrumb2; ?>
+			广告模块管理
 		</small>
 	</h1>
 </div>
 <div class="page-header">
-	<a href="<?php echo url('brand/add'); ?>" class="btn btn-primary">新增</a>
+	<?php if(\think\Request::instance()->param('pid')): ?>
+		<a href="<?php echo url('Ad/module_add',array('pid'=>input('param.pid'))); ?>" class="btn btn-primary">新增</a>
+	<?php else: ?>
+		<a href="<?php echo url('Ad/module_add'); ?>" class="btn btn-primary">新增</a>
+	<?php endif; ?>
 </div>	
 	
 <div class="row">
@@ -223,37 +228,46 @@
 		<div class="table-responsive">
 			<table class="table table-striped table-bordered table-hover">
 				<thead>
-					<tr>		
+					<tr>
+						<th>排序</th> 		
 						<th>图片</th> 									
-						<th>品牌名称</th>					
+						<th>分类名称</th>					
 						<th>操作</th>				
 					</tr>
 				</thead>
 				<tbody>
-						<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>
-						<tr>							
-							<td>
-							<?php if($data['image']): ?>
-		                  		<img src="/<?php echo resize($data['image'],100,100); ?>" title="<?php echo $data['name']; ?>" />
-		                  	<?php else: ?>
-		                  		<img src="/public/static/image/no_image_100x100.jpg" title="暂无图片" />
-		                  	<?php endif; ?>
-							</td>
-							<td><?php echo $data['name']; ?></td>
-							<td>
-								<a  class="btn btn-xs btn-info" href='<?php echo url("brand/edit",array("id"=>$data["brand_id"])); ?>'>
-									<i class="fa fa-edit bigger-120"></i>
-								</a> 
-								<a class="delete btn btn-xs btn-danger" href='<?php echo url("brand/del",array("id"=>$data["brand_id"])); ?>' >
-									<i class="fa fa-trash bigger-120"></i>
-								</a>
-							</td>
-						</tr>
-						<?php endforeach; endif; else: echo "$empty" ;endif; ?>	
-						
-						<tr>
-							<td colspan="5" class="page"><?php echo $list->render(); ?></td>
-						</tr>
+					<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$cat): $mod = ($i % 2 );++$i;?>
+					<tr>
+						<td>
+							<input name="sort" type="text" size="1" class="sort" cid='<?php echo $cat['id']; ?>' value="<?php echo $cat['sort_order']; ?>" />								
+						</td>
+						<td>
+							<a href="<?php echo url('Ad/index',array('pid'=>$cat['id'])); ?>">
+								<?php if($cat['image']): ?>
+		                  			<img src="/<?php echo resize($cat['image'],50,50); ?>" />
+			                  	<?php else: ?>
+			                  		<img src="/public/static/image/no_image_50x50.jpg" />
+			                  	<?php endif; ?>
+		                  	</a>
+						</td>
+						<td><?php echo $cat['module_name']; ?></td>
+						<td>
+							<a  class="btn btn-xs btn-info" href='<?php echo url("category/edit",array("id"=>$cat["id"])); ?>'>
+								<i class="fa fa-edit bigger-120"></i>
+							</a> 
+							<a class="delete btn btn-xs btn-danger" href='<?php echo url("category/del",array("id"=>$cat["id"])); ?>' >
+								<i class="fa fa-trash bigger-120"></i>
+							</a>
+						</td>
+					</tr>	
+					<?php endforeach; endif; else: echo "$empty" ;endif; ?>
+					
+					<tr>
+						<td colspan="20" class="page"><?php echo $list->render(); ?></td>
+					</tr>
+					<tr>
+						<td colspan="20">总计 <?php echo ($list->total() ?: "0"); ?> 个分类</td>
+					</tr>	
 				</tbody>
 				
 			</table>
@@ -301,7 +315,20 @@
 		<script src="/public/static/view_res/admin/ace/js/ace.min.js"></script>
 
 		
-								
+<script>
+$('.sort').blur(function(){
 		
+		$.post(
+			"<?php echo url('Category/update_sort'); ?>",
+			{sort:$(this).val(),cid:$(this).attr('cid')},
+			function(data){
+				if(data){
+					window.location.reload();
+				}
+			}
+		);
+	});
+</script>
+
 	</body>
 </html>
