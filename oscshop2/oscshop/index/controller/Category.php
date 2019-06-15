@@ -24,7 +24,11 @@ class Category extends HomeBase
 		if(!$category=Db::name('category')->find((int)$param['id'])){
 			$this->error('商品分类不存在！！');
 		}
-
+		if($category['pid']>0){
+		    $parentcate = Db::name('category')->find((int)$category['pid']);
+            $this->assign('pcate',$parentcate);
+        }
+        $this->assign('now_category',$category);
 		$this->assign('SEO',['title'=>$category['name'].'-'.config('SITE_TITLE'),
 		'keywords'=>$category['meta_keyword'],
 		'description'=>$category['meta_description']]);

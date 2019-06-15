@@ -1,0 +1,53 @@
+{extend name="public:base" /}
+{block name="content"}
+<style>
+    .letters>span>a{
+        padding:10px;font-size: 20px;color:inherit;
+    }
+    .letters>span>a:hover{
+        color:#e84d1c;
+    }
+    .letters>span:first-child>a{
+        padding-left:0;
+    }
+</style>
+<div class="main">
+    <div class="container">
+        <!-- BEGIN BRANDS -->
+        <!-- BEGIN ALL LETTERS -->
+            <div class="letters" style="padding:20px 0 40px;">
+                {volist name="letters" id="one"}<span><a href="#{$one}">{$one}</a></span>{/volist}
+            </div>
+        <!-- END ALL LETTERS -->
+        {volist name="brands_list" id="first_letter"}
+        <div class="row margin-bottom-40" id="{$key}">
+            <!-- BEGIN EACH LETTER BRAND -->
+            <div class="col-md-12 sale-product">
+                <h2 >{$key}</h2>
+                <div class="owl-carousel owl-carousel4" style="border-top: 5px solid #e84d1c;padding-top:10px;">
+                    {volist name="first_letter" id="vol" empty="$empty"}
+                    <div style="padding:10px 20px;">
+                        <a href="{:url('/brands/'.$vol['brand_id'])}">
+                            <div class="product-item" style="margin:0 0 18px;margin-right: 0;padding:0; ">
+                                <div class="pi-img-wrapper" style="height:130px;">
+                                    <img src="/public/uploads/IMG_ROOT{$vol.image}" class="img-responsive" style="max-height:130px;" alt="Berry Lace Dress">
+                                </div>
+                            </div>
+                        </a>
+                        <h5 style="text-align: center;"><a href="{:url('/brands/'.$vol['brand_id'])}" style="color:#848484;">{$vol.name}</a></h6>
+                    </div>
+                    {/volist}
+                </div>
+            </div>
+            <!-- END EACH LETTER BRAND -->
+        </div>
+        {/volist}
+        <!-- END BRANDS -->
+    </div>
+</div>
+{/block}
+{block name="javascript"}
+<script>
+    $('#brand-nav').addClass('active');
+</script>
+{/block}

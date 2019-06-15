@@ -1,0 +1,3658 @@
+---------------------------------------------------------------
+[ 2019-06-15T00:13:03+08:00 ] 78.189.46.170 GET 114.67.89.3:80/
+[运行时间：0.347792s] [吞吐率：2.88req/s] [内存消耗：3,637.24kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T01:57:02+08:00 ] 14.102.189.73 GET 114.67.89.3:80/
+[运行时间：0.387861s] [吞吐率：2.58req/s] [内存消耗：3,636.91kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T04:47:44+08:00 ] 112.125.92.74 HEAD 114.67.89.3/
+[运行时间：0.422563s] [吞吐率：2.37req/s] [内存消耗：3,636.46kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T05:11:03+08:00 ] 85.158.74.47 GET 114.67.89.3:80/
+[运行时间：0.358153s] [吞吐率：2.79req/s] [内存消耗：3,636.91kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T05:40:13+08:00 ] 202.74.246.20 GET 114.67.89.3:80/
+[运行时间：0.328629s] [吞吐率：3.04req/s] [内存消耗：3,636.91kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T06:55:30+08:00 ] 109.199.29.54 GET 114.67.89.3:80/
+[运行时间：0.326019s] [吞吐率：3.07req/s] [内存消耗：3,637.25kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T07:40:14+08:00 ] 121.31.163.192 GET 114.67.89.3/
+[运行时间：0.347743s] [吞吐率：2.88req/s] [内存消耗：3,637.40kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)',
+  'host' => '114.67.89.3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:16+08:00 ] 5.62.51.136 GET 114.67.89.3/
+[运行时间：0.337746s] [吞吐率：2.96req/s] [内存消耗：3,637.59kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:22+08:00 ] 5.62.51.136 GET 114.67.89.3/HNAP1/
+[运行时间：0.013398s] [吞吐率：74.64req/s] [内存消耗：1,830.52kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'HNAP1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/HNAP1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:25+08:00 ] 5.62.51.136 GET 114.67.89.3/hudson/script
+[运行时间：0.012825s] [吞吐率：77.97req/s] [内存消耗：1,830.67kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hudson',
+    1 => 'script',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/hudson/script' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:28+08:00 ] 5.62.51.136 GET 114.67.89.3/script
+[运行时间：0.012838s] [吞吐率：77.89req/s] [内存消耗：1,830.48kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'script',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/script' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:31+08:00 ] 5.62.51.136 GET 114.67.89.3/sqlite/main.php
+[运行时间：0.012888s] [吞吐率：77.59req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sqlite',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/sqlite/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:34+08:00 ] 5.62.51.136 GET 114.67.89.3/sqlitemanager/main.php
+[运行时间：0.013009s] [吞吐率：76.87req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sqlitemanager',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/sqlitemanager/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:37+08:00 ] 5.62.51.136 GET 114.67.89.3/SQLiteManager/main.php
+[运行时间：0.012663s] [吞吐率：78.97req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SQLiteManager',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/SQLiteManager/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:40+08:00 ] 5.62.51.136 GET 114.67.89.3/SQLite/main.php
+[运行时间：0.012753s] [吞吐率：78.41req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SQLite',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/SQLite/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:43+08:00 ] 5.62.51.136 GET 114.67.89.3/SQlite/main.php
+[运行时间：0.012631s] [吞吐率：79.17req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SQlite',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/SQlite/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:47+08:00 ] 5.62.51.136 GET 114.67.89.3/main.php
+[运行时间：0.013299s] [吞吐率：75.19req/s] [内存消耗：1,830.50kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'main',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:50+08:00 ] 5.62.51.136 GET 114.67.89.3/test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[运行时间：0.013673s] [吞吐率：73.14req/s] [内存消耗：1,831.78kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'sqlite',
+    2 => 'SQLiteManager-1.2.0',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/test/sqlite/SQLiteManager-1_2_0/SQLiteManager-1_2_0/main_php' => '',
+  0 => 'main',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:53+08:00 ] 5.62.51.136 GET 114.67.89.3/SQLiteManager-1.2.4/main.php
+[运行时间：0.013349s] [吞吐率：74.91req/s] [内存消耗：1,830.90kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'SQLiteManager-1.2.4',
+    1 => 'main',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/SQLiteManager-1_2_4/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:56+08:00 ] 5.62.51.136 GET 114.67.89.3/agSearch/SQlite/main.php
+[运行时间：0.012832s] [吞吐率：77.93req/s] [内存消耗：1,831.01kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'agSearch',
+    1 => 'SQlite',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/agSearch/SQlite/main_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:03:59+08:00 ] 5.62.51.136 GET 114.67.89.3/phpmyadmin/
+[运行时间：0.012724s] [吞吐率：78.59req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpmyadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:02+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin/
+[运行时间：0.013320s] [吞吐率：75.08req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:05+08:00 ] 5.62.51.136 GET 114.67.89.3/PMA/
+[运行时间：0.012723s] [吞吐率：78.60req/s] [内存消耗：1,830.51kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'PMA',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/PMA/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:08+08:00 ] 5.62.51.136 GET 114.67.89.3/pma/
+[运行时间：0.012927s] [吞吐率：77.36req/s] [内存消耗：1,830.51kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/pma/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:11+08:00 ] 5.62.51.136 GET 114.67.89.3/admin/
+[运行时间：0.015858s] [吞吐率：63.06req/s] [内存消耗：2,451.25kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/admin/' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:14+08:00 ] 5.62.51.136 GET 114.67.89.3/admin/Login/login
+[运行时间：0.016022s] [吞吐率：62.41req/s] [内存消耗：2,374.17kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ /var/www/html/css/oscshop2/oscshop/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./oscshop/admin/view/public/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:17+08:00 ] 5.62.51.136 GET 114.67.89.3/dbadmin/
+[运行时间：0.012783s] [吞吐率：78.23req/s] [内存消耗：1,830.59kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dbadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/dbadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:19+08:00 ] 5.62.51.136 GET 114.67.89.3/mysql/
+[运行时间：0.012325s] [吞吐率：81.14req/s] [内存消耗：1,830.52kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mysql',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/mysql/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:23+08:00 ] 5.62.51.136 GET 114.67.89.3/myadmin/
+[运行时间：0.012647s] [吞吐率：79.07req/s] [内存消耗：1,830.59kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'myadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/myadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:25+08:00 ] 5.62.51.136 GET 114.67.89.3/openserver/phpmyadmin/
+[运行时间：0.012700s] [吞吐率：78.74req/s] [内存消耗：1,830.72kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'openserver',
+    1 => 'phpmyadmin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/openserver/phpmyadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:28+08:00 ] 5.62.51.136 GET 114.67.89.3/phpmyadmin2/
+[运行时间：0.012777s] [吞吐率：78.27req/s] [内存消耗：1,830.68kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpmyadmin2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:31+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin2/
+[运行时间：0.013103s] [吞吐率：76.32req/s] [内存消耗：1,830.68kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:33+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2/
+[运行时间：0.013358s] [吞吐率：74.86req/s] [内存消耗：1,830.62kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:36+08:00 ] 5.62.51.136 GET 114.67.89.3/php-my-admin/
+[运行时间：0.012827s] [吞吐率：77.96req/s] [内存消耗：1,830.62kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'php-my-admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/php-my-admin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:39+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.2.3/
+[运行时间：0.012703s] [吞吐率：78.72req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.2.3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_2_3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:41+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.2.6/
+[运行时间：0.012786s] [吞吐率：78.21req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.2.6',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_2_6/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:44+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.1/
+[运行时间：0.012674s] [吞吐率：78.90req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:47+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.4/
+[运行时间：0.012963s] [吞吐率：77.14req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.4',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_4/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:49+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.5-rc1/
+[运行时间：0.012688s] [吞吐率：78.82req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.5-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_5-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:52+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.5-rc2/
+[运行时间：0.013719s] [吞吐率：72.89req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.5-rc2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_5-rc2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:55+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.5/
+[运行时间：0.012853s] [吞吐率：77.80req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.5',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_5/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:04:58+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.5-pl1/
+[运行时间：0.012765s] [吞吐率：78.34req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.5-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_5-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:00+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.6-rc1/
+[运行时间：0.013314s] [吞吐率：75.11req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.6-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_6-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:03+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.6-rc2/
+[运行时间：0.012414s] [吞吐率：80.55req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.6-rc2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_6-rc2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:10+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.6/
+[运行时间：0.012733s] [吞吐率：78.54req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.6',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_6/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:13+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.7/
+[运行时间：0.013733s] [吞吐率：72.82req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.7',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_7/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:16+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.5.7-pl1/
+[运行时间：0.012838s] [吞吐率：77.89req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.5.7-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_5_7-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:18+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-alpha/
+[运行时间：0.012781s] [吞吐率：78.24req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-alpha',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-alpha/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:21+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-alpha2/
+[运行时间：0.012334s] [吞吐率：81.08req/s] [内存消耗：1,830.91kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-alpha2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-alpha2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:24+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-beta1/
+[运行时间：0.012875s] [吞吐率：77.67req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-beta1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-beta1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:27+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-beta2/
+[运行时间：0.012673s] [吞吐率：78.91req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-beta2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-beta2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:30+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-rc1/
+[运行时间：0.012970s] [吞吐率：77.10req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:33+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-rc2/
+[运行时间：0.013017s] [吞吐率：76.82req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-rc2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-rc2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:36+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-rc3/
+[运行时间：0.012825s] [吞吐率：77.97req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-rc3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-rc3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:39+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0/
+[运行时间：0.012911s] [吞吐率：77.45req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:42+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-pl1/
+[运行时间：0.012806s] [吞吐率：78.09req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:45+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-pl2/
+[运行时间：0.012846s] [吞吐率：77.85req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-pl2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-pl2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:48+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.0-pl3/
+[运行时间：0.012706s] [吞吐率：78.70req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.0-pl3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_0-pl3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:51+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1-rc1/
+[运行时间：0.012417s] [吞吐率：80.53req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:54+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1-rc2/
+[运行时间：0.012509s] [吞吐率：79.94req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1-rc2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1-rc2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:57+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1/
+[运行时间：0.012532s] [吞吐率：79.80req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:05:59+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1-pl1/
+[运行时间：0.012405s] [吞吐率：80.61req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:02+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1-pl2/
+[运行时间：0.012695s] [吞吐率：78.77req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1-pl2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1-pl2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:05+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.1-pl3/
+[运行时间：0.012694s] [吞吐率：78.78req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.1-pl3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_1-pl3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:08+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.2-rc1/
+[运行时间：0.012589s] [吞吐率：79.43req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.2-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_2-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:11+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.2-beta1/
+[运行时间：0.012866s] [吞吐率：77.72req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.2-beta1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_2-beta1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:14+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.2-rc1/
+[运行时间：0.012717s] [吞吐率：78.63req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.2-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_2-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:17+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.2/
+[运行时间：0.012938s] [吞吐率：77.29req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:20+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.2-pl1/
+[运行时间：0.012839s] [吞吐率：77.89req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.2-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_2-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:23+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.3/
+[运行时间：0.012795s] [吞吐率：78.16req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:26+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.3-rc1/
+[运行时间：0.012796s] [吞吐率：78.15req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.3-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_3-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:28+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.3/
+[运行时间：0.012756s] [吞吐率：78.40req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:31+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.3-pl1/
+[运行时间：0.012813s] [吞吐率：78.05req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.3-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_3-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:34+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4-rc1/
+[运行时间：0.012771s] [吞吐率：78.30req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:37+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4-pl1/
+[运行时间：0.012920s] [吞吐率：77.40req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:40+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4-pl2/
+[运行时间：0.012818s] [吞吐率：78.02req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4-pl2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4-pl2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:42+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4-pl3/
+[运行时间：0.013117s] [吞吐率：76.24req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4-pl3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4-pl3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:45+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4-pl4/
+[运行时间：0.012983s] [吞吐率：77.02req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4-pl4',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4-pl4/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:48+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.6.4/
+[运行时间：0.012712s] [吞吐率：78.67req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.6.4',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_6_4/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:50+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.7.0-beta1/
+[运行时间：0.012764s] [吞吐率：78.35req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.7.0-beta1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_7_0-beta1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:53+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.7.0-rc1/
+[运行时间：0.013196s] [吞吐率：75.78req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.7.0-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_7_0-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:55+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.7.0-pl1/
+[运行时间：0.013523s] [吞吐率：73.95req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.7.0-pl1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_7_0-pl1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:06:58+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.7.0-pl2/
+[运行时间：0.012922s] [吞吐率：77.39req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.7.0-pl2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_7_0-pl2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:01+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.7.0/
+[运行时间：0.012675s] [吞吐率：78.90req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.7.0',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_7_0/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:03+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0-beta1/
+[运行时间：0.012785s] [吞吐率：78.22req/s] [内存消耗：1,830.93kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0-beta1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0-beta1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:06+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0-rc1/
+[运行时间：0.012686s] [吞吐率：78.83req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:09+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0-rc2/
+[运行时间：0.012793s] [吞吐率：78.17req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0-rc2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0-rc2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:11+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0/
+[运行时间：0.012796s] [吞吐率：78.15req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:14+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0.1/
+[运行时间：0.012778s] [吞吐率：78.26req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0.1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0_1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:17+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0.2/
+[运行时间：0.012873s] [吞吐率：77.68req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0.2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0_2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:19+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0.3/
+[运行时间：0.012809s] [吞吐率：78.07req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0.3',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0_3/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:22+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.0.4/
+[运行时间：0.012804s] [吞吐率：78.10req/s] [内存消耗：1,830.70kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.0.4',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_0_4/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:24+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.1-rc1/
+[运行时间：0.012767s] [吞吐率：78.33req/s] [内存消耗：1,830.79kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.1-rc1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_1-rc1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:27+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.1/
+[运行时间：0.012872s] [吞吐率：77.69req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_1/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:30+08:00 ] 5.62.51.136 GET 114.67.89.3/phpMyAdmin-2.8.2/
+[运行时间：0.012668s] [吞吐率：78.94req/s] [内存消耗：1,830.73kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin-2.8.2',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin-2_8_2/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:32+08:00 ] 5.62.51.136 GET 114.67.89.3/sqlmanager/
+[运行时间：0.013913s] [吞吐率：71.87req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sqlmanager',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/sqlmanager/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:35+08:00 ] 5.62.51.136 GET 114.67.89.3/mysqlmanager/
+[运行时间：0.012876s] [吞吐率：77.66req/s] [内存消耗：1,830.62kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mysqlmanager',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/mysqlmanager/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:37+08:00 ] 5.62.51.136 GET 114.67.89.3/p/m/a/
+[运行时间：0.012787s] [吞吐率：78.21req/s] [内存消耗：1,830.51kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'p',
+    1 => 'm',
+    2 => 'a',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/p/m/a/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:49+08:00 ] 5.62.51.136 GET 114.67.89.3/PMA2005/
+[运行时间：0.012771s] [吞吐率：78.30req/s] [内存消耗：1,830.59kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'PMA2005',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/PMA2005/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:51+08:00 ] 5.62.51.136 GET 114.67.89.3/pma2005/
+[运行时间：0.012628s] [吞吐率：79.19req/s] [内存消耗：1,830.59kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma2005',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/pma2005/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:54+08:00 ] 5.62.51.136 GET 114.67.89.3/phpmanager/
+[运行时间：0.012773s] [吞吐率：78.29req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmanager',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpmanager/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:56+08:00 ] 5.62.51.136 GET 114.67.89.3/php-myadmin/
+[运行时间：0.012851s] [吞吐率：77.81req/s] [内存消耗：1,830.68kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'php-myadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/php-myadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:07:58+08:00 ] 5.62.51.136 GET 114.67.89.3/phpmy-admin/
+[运行时间：0.012781s] [吞吐率：78.24req/s] [内存消耗：1,830.68kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmy-admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/phpmy-admin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:01+08:00 ] 5.62.51.136 GET 114.67.89.3/webadmin/
+[运行时间：0.012576s] [吞吐率：79.52req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/webadmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:04+08:00 ] 5.62.51.136 GET 114.67.89.3/sqlweb/
+[运行时间：0.012656s] [吞吐率：79.01req/s] [内存消耗：1,830.64kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sqlweb',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/sqlweb/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:06+08:00 ] 5.62.51.136 GET 114.67.89.3/websql/
+[运行时间：0.013859s] [吞吐率：72.16req/s] [内存消耗：1,830.64kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'websql',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/websql/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:09+08:00 ] 5.62.51.136 GET 114.67.89.3/webdb/
+[运行时间：0.012732s] [吞吐率：78.54req/s] [内存消耗：1,830.52kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdb',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/webdb/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:14+08:00 ] 5.62.51.136 GET 114.67.89.3/mysqladmin/
+[运行时间：0.012854s] [吞吐率：77.80req/s] [内存消耗：1,830.63kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mysqladmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/mysqladmin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:08:17+08:00 ] 5.62.51.136 GET 114.67.89.3/mysql-admin/
+[运行时间：0.012893s] [吞吐率：77.56req/s] [内存消耗：1,830.68kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mysql-admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://114.67.89.3/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'cookie' => 'PHPSESSID=aio8ubssktib9ap17bhbnss4l3',
+)
+[ info ] [ PARAM ] array (
+  '/mysql-admin/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:35:54+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/
+[运行时间：0.015365s] [吞吐率：65.08req/s] [内存消耗：2,451.59kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:35:54+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/Login/login
+[运行时间：0.015343s] [吞吐率：65.18req/s] [内存消耗：2,374.52kb] [文件加载：41]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ /var/www/html/css/oscshop2/oscshop/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./oscshop/admin/view/public/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:35:57+08:00 ] 123.125.5.211 GET 114.67.89.3/favicon.ico
+[运行时间：0.012474s] [吞吐率：80.17req/s] [内存消耗：1,830.45kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:02+08:00 ] 123.125.5.211 POST 114.67.89.3/admin/Login/login
+[运行时间：0.637326s] [吞吐率：1.57req/s] [内存消耗：3,416.05kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/Login/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'connection' => 'Keep-Alive',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ /var/www/html/css/oscshop2/oscshop/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:03+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/Index/index
+[运行时间：1.008781s] [吞吐率：0.99req/s] [内存消耗：3,865.64kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/Login/login',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Index/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/admin/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/index/index.html [ array (
+  0 => 'admin_menu',
+  1 => 'total_order',
+  2 => 'today_order',
+  3 => 'total_money',
+  4 => 'today_money',
+  5 => 'user_action_total',
+  6 => 'today_user_action',
+  7 => 'today_member',
+  8 => 'member_count',
+  9 => 'user_action',
+  10 => 'uc_empty',
+  11 => 'order_list',
+  12 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:13+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/index
+[运行时间：0.345192s] [吞吐率：2.90req/s] [内存消耗：3,674.76kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/Index/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:14+08:00 ] 123.125.5.211 GET 114.67.89.3/
+[运行时间：0.247571s] [吞吐率：4.04req/s] [内存消耗：3,639.08kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:20+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/ad/ad_index
+[运行时间：0.012894s] [吞吐率：77.56req/s] [内存消耗：1,840.83kb] [文件加载：31]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'ad_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/ad/ad_index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:28+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/index
+[运行时间：0.344429s] [吞吐率：2.90req/s] [内存消耗：3,674.76kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/Index/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:36:29+08:00 ] 123.125.5.211 GET 114.67.89.3/
+[运行时间：0.235380s] [吞吐率：4.25req/s] [内存消耗：3,639.08kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:37:09+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/index
+[运行时间：0.363959s] [吞吐率：2.75req/s] [内存消耗：3,674.76kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:37:09+08:00 ] 123.125.5.211 GET 114.67.89.3/
+[运行时间：0.226975s] [吞吐率：4.41req/s] [内存消耗：3,639.08kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:37:13+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/index?page=7
+[运行时间：0.359199s] [吞吐率：2.78req/s] [内存消耗：3,674.27kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+  'page' => '7',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:37:22+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/add
+[运行时间：0.162076s] [吞吐率：6.17req/s] [内存消耗：2,775.34kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index?page=7',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/add' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->add[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/edit.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'crumbs',
+  4 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T11:41:58+08:00 ] 123.125.5.211 GET 114.67.89.3/favicon.ico
+[运行时间：0.012742s] [吞吐率：78.48req/s] [内存消耗：1,831.11kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T12:58:54+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/ad/module_index
+[运行时间：0.013328s] [吞吐率：75.03req/s] [内存消耗：1,840.88kb] [文件加载：31]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'module_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/add',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/ad/module_index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T12:59:02+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/brand/add
+[运行时间：0.433321s] [吞吐率：2.31req/s] [内存消耗：2,775.34kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/index?page=7',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/add' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->add[ /var/www/html/css/oscshop2/oscshop/admin/controller/Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin/view/brand/edit.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'crumbs',
+  4 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T12:59:06+08:00 ] 123.125.5.211 GET 114.67.89.3/admin/ad/ad_index
+[运行时间：0.013758s] [吞吐率：72.69req/s] [内存消耗：1,840.83kb] [文件加载：31]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'ad_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/admin/brand/add',
+  'cookie' => 'PHPSESSID=jel74fpnmncgvff9jcr001if11',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/ad/ad_index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T13:01:45+08:00 ] 36.81.9.4 GET 114.67.89.3:80/
+[运行时间：0.233794s] [吞吐率：4.28req/s] [内存消耗：3,636.91kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'no_bottom',
+  5 => 'empty',
+  6 => 'list',
+  7 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

@@ -12464,3 +12464,1975 @@ File
 ) ]
 >>>>>>> 3df1bbe49c52e0a511155587b584e3e165d170e1
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:05+08:00 ] 111.199.187.243 GET 114.67.89.3/
+[运行时间：0.309201s] [吞吐率：3.23req/s] [内存消耗：4,025.06kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:05+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/Antipodes.jpg
+[运行时间：0.014682s] [吞吐率：68.11req/s] [内存消耗：1,832.20kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/Antipodes_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/ai.jpg
+[运行时间：0.014338s] [吞吐率：69.74req/s] [内存消耗：1,832.17kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/ai_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/aj.jpg
+[运行时间：0.017261s] [吞吐率：57.93req/s] [内存消耗：1,832.17kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/aj_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/11.jpg
+[运行时间：0.014781s] [吞吐率：67.65req/s] [内存消耗：1,832.17kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/11_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/a2.jpg
+[运行时间：0.013758s] [吞吐率：72.69req/s] [内存消耗：1,832.17kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/a2_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/alp.jpg
+[运行时间：0.014036s] [吞吐率：71.25req/s] [内存消耗：1,832.21kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/alp_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/artenemis.png
+[运行时间：0.013991s] [吞吐率：71.47req/s] [内存消耗：1,832.20kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/artenemis_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logo/auth.jpg
+[运行时间：0.013604s] [吞吐率：73.51req/s] [内存消耗：1,832.10kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logo/auth_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/bio.png
+[运行时间：0.012802s] [吞吐率：78.11req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/bio_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/blackmores.jpg
+[运行时间：0.013665s] [吞吐率：73.18req/s] [内存消耗：1,832.13kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/blackmores_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/bio-bla.jpg
+[运行时间：0.013032s] [吞吐率：76.73req/s] [内存消耗：1,832.02kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/bio-bla_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:06+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/Breach.jpg
+[运行时间：0.013160s] [吞吐率：75.99req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/Breach_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/Bio-oil.jpg
+[运行时间：0.059413s] [吞吐率：16.83req/s] [内存消耗：1,832.02kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/Bio-oil_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/Bio-island.jpg
+[运行时间：0.048873s] [吞吐率：20.46req/s] [内存消耗：1,832.20kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/Bio-island_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoc/cli.jpg
+[运行时间：0.023564s] [吞吐率：42.44req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoc/cli_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logob/be.jpg
+[运行时间：0.061342s] [吞吐率：16.30req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logob/be_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoc/comv.jpg
+[运行时间：0.022927s] [吞吐率：43.62req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoc/comv_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoc/chan.png
+[运行时间：0.055152s] [吞吐率：18.13req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoc/chan_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoc/cemoy.jpg
+[运行时间：0.012894s] [吞吐率：77.55req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoc/cemoy_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logod/dr.png
+[运行时间：0.016263s] [吞吐率：61.49req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logod',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logod/dr_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logod/de.jpg
+[运行时间：0.016805s] [吞吐率：59.51req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logod',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logod/de_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/eaoron.jpg
+[运行时间：0.018085s] [吞吐率：55.29req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/eaoron_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/ear.jpg
+[运行时间：0.018319s] [吞吐率：54.59req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/ear_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/ecostory.jpg
+[运行时间：0.012854s] [吞吐率：77.80req/s] [内存消耗：1,832.04kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/ecostory_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/ellis.jpg
+[运行时间：0.015608s] [吞吐率：64.07req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/ellis_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/encare.jpg
+[运行时间：0.012825s] [吞吐率：77.97req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/encare_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoe/ugg.jpg
+[运行时间：0.018852s] [吞吐率：53.04req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoe/ugg_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/fresco.png
+[运行时间：0.019121s] [吞吐率：52.30req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/fresco_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/floreve.png
+[运行时间：0.019367s] [吞吐率：51.63req/s] [内存消耗：1,832.02kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/floreve_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/free.jpg
+[运行时间：0.019367s] [吞吐率：51.63req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/free_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/flora.jpg
+[运行时间：0.012653s] [吞吐率：79.03req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/flora_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/ficce.jpg
+[运行时间：0.012938s] [吞吐率：77.29req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/ficce_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/fernz.jpg
+[运行时间：0.012784s] [吞吐率：78.22req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/fernz_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logof/fem.jpg
+[运行时间：0.019227s] [吞吐率：52.01req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logof',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logof/fem_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logog/goat.png
+[运行时间：0.020546s] [吞吐率：48.67req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logog/goat_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logog/grin.jpg
+[运行时间：0.019917s] [吞吐率：50.21req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logog/grin_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logog/gold.jpg
+[运行时间：0.019917s] [吞吐率：50.21req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logog/gold_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logog/go.jpg
+[运行时间：0.012895s] [吞吐率：77.55req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logog/go_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logog/glow.jpg
+[运行时间：0.012732s] [吞吐率：78.54req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logog/glow_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/wyth.png
+[运行时间：0.012657s] [吞吐率：79.01req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/wyth_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/holi.png
+[运行时间：0.017434s] [吞吐率：57.36req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/holi_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/red.jpg
+[运行时间：0.019784s] [吞吐率：50.55req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/red_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/healthy.jpg
+[运行时间：0.019521s] [吞吐率：51.23req/s] [内存消耗：1,832.02kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/healthy_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/her.jpg
+[运行时间：0.019521s] [吞吐率：51.23req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/her_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoh/heal.jpg
+[运行时间：0.012611s] [吞吐率：79.29req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoh/heal_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoi/int.png
+[运行时间：0.012698s] [吞吐率：78.75req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoi/int_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoi/imm.jpg
+[运行时间：0.020203s] [吞吐率：49.50req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoi/imm_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoi/izr.jpg
+[运行时间：0.030790s] [吞吐率：32.48req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoi/izr_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoi/ilove.jpg
+[运行时间：0.019678s] [吞吐率：50.82req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoi/ilove_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoj/1.jpg
+[运行时间：0.020055s] [吞吐率：49.86req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoj/1_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logoj/2.jpg
+[运行时间：0.020054s] [吞吐率：49.87req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logoj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logoj/2_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logok/3.jpg
+[运行时间：0.012945s] [吞吐率：77.25req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logok/3_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logok/5.jpg
+[运行时间：0.013027s] [吞吐率：76.76req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logok/5_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:07+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logok/6.jpg
+[运行时间：0.012736s] [吞吐率：78.52req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logok/6_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logok/kar.jpg
+[运行时间：0.018800s] [吞吐率：53.19req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logok/kar_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logok/koe.jpg
+[运行时间：0.019181s] [吞吐率：52.13req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logok/koe_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logol/life.jpg
+[运行时间：0.019292s] [吞吐率：51.84req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logol',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logol/life_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logol/lacus.jpg
+[运行时间：0.019292s] [吞吐率：51.84req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logol',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logol/lacus_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logol/lifestory.jpg
+[运行时间：0.012679s] [吞吐率：78.87req/s] [内存消耗：1,832.10kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logol',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logol/lifestory_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logol/linden.jpg
+[运行时间：0.013061s] [吞吐率：76.56req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logol',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logol/linden_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logol/lucas.jpg
+[运行时间：0.012757s] [吞吐率：78.39req/s] [内存消耗：1,831.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logol',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logol/lucas_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/2.jpg
+[运行时间：0.018373s] [吞吐率：54.43req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/2_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/merino.jpg
+[运行时间：0.020740s] [吞吐率：48.22req/s] [内存消耗：1,832.06kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/merino_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/4.png
+[运行时间：0.019327s] [吞吐率：51.74req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/4_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/3.jpg
+[运行时间：0.019327s] [吞吐率：51.74req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/3_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/5.png
+[运行时间：0.012722s] [吞吐率：78.60req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/5_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/6.jpg
+[运行时间：0.012945s] [吞吐率：77.25req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/6_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/7.jpg
+[运行时间：0.012450s] [吞吐率：80.32req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/7_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:28:08+08:00 ] 111.199.187.243 GET 114.67.89.3/images/osc1/logom/8.jpg
+[运行时间：0.013648s] [吞吐率：73.27req/s] [内存消耗：1,832.05kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'osc1',
+    2 => 'logom',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/images/osc1/logom/8_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:36:51+08:00 ] 111.199.187.243 GET 114.67.89.3/login
+[运行时间：0.021436s] [吞吐率：46.65req/s] [内存消耗：2,651.01kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\member\controller\Login->login[ /var/www/html/css/oscshop2/oscshop/member/controller/Login.php ]
+[ info ] [ VIEW ] ./themes/shop/member/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-01T19:36:51+08:00 ] 111.199.187.243 GET 114.67.89.3/member/login/verify
+[运行时间：0.027794s] [吞吐率：35.98req/s] [内存消耗：2,381.44kb] [文件加载：40]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://114.67.89.3/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'BT_PANEL=164aed776b05f64f48defdaebac66d44a4422683; serverType=apache; order=id%20desc; Path=/var/www/html/css/oscshop2; uploadSize=1073741824; rank=a; memRealUsed=279; mem-before=279/7823%20%28MB%29; memSize=7823; upNet=0; downNet=0; one=0.11; five=0.06; fifteen=0.03; conterError=; PHPSESSID=7l6id1thtsfpebdfnuhs7bp2m0',
+)
+[ info ] [ PARAM ] array (
+  '/member/login/verify' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\member\controller\Login->verify[ /var/www/html/css/oscshop2/oscshop/member/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

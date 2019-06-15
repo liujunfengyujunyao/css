@@ -63,18 +63,16 @@
 					alert(d.error);
 				}else if(d.success){
 					
-					alert('登录成功');
-					
-					var user=$("#top",window.parent.document).find('ul.left');						
-					user.html('');					
-					user.append('<li><a href="{:url(\'member/order_member/index\')}">会员中心</a></li><li><a href="{:url(\'/logout\')}">退出</a></li>');
-					
-					var cart=$("#top",window.parent.document).find('#cart a');						
-					cart.html('');					
-					cart.append(d.total);
-					
-							
-					parent.window.art.dialog.list['login'].close();		
+                    var user=$("#top",window.parent.document).find('ul.left');
+                    user.html('');
+                    user.append('<li><a href="{:url(\'member/order_member/index\')}">会员中心</a></li><li><a href="{:url(\'/logout\')}">退出</a></li>');
+
+                    var cart=$("#top",window.parent.document).find('#cart a');
+                    cart.html('');
+                    cart.append(d.total);
+
+                    window.parent.location.reload();
+
 				}
 			}	
 		);

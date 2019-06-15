@@ -1,0 +1,680 @@
+---------------------------------------------------------------
+[ 2019-06-08T03:32:29+08:00 ] 2.181.17.16 GET 114.67.89.3:80/
+[运行时间：0.338505s] [吞吐率：2.95req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T05:33:57+08:00 ] 47.95.224.246 GET 114.67.89.3:80/webdav/
+[运行时间：0.013670s] [吞吐率：73.15req/s] [内存消耗：1,828.98kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/webdav/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T05:39:53+08:00 ] 177.21.100.35 GET 114.67.89.3:80/
+[运行时间：0.320700s] [吞吐率：3.12req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T07:56:55+08:00 ] 107.170.195.214 GET 114.67.89.3/
+[运行时间：0.315487s] [吞吐率：3.17req/s] [内存消耗：3,700.68kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T08:26:15+08:00 ] 192.228.100.252 GET 114.67.89.3/wp-login.php
+[运行时间：0.012579s] [吞吐率：79.50req/s] [内存消耗：1,829.95kb] [文件加载：30]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)',
+  'host' => '114.67.89.3',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/wp-login_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T12:22:39+08:00 ] 2.179.99.141 GET 114.67.89.3:80/
+[运行时间：0.319325s] [吞吐率：3.13req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T13:07:28+08:00 ] 187.167.184.159 GET 114.67.89.3:80/
+[运行时间：0.332560s] [吞吐率：3.01req/s] [内存消耗：3,700.61kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T13:09:21+08:00 ] 91.235.68.178 GET 114.67.89.3:80/
+[运行时间：0.236808s] [吞吐率：4.22req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T13:20:28+08:00 ] 203.174.11.198 GET 114.67.89.3:80/
+[运行时间：0.313997s] [吞吐率：3.18req/s] [内存消耗：3,700.61kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T14:51:56+08:00 ] 188.158.86.17 GET 114.67.89.3/
+[运行时间：0.319728s] [吞吐率：3.13req/s] [内存消耗：3,701.02kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '114.67.89.3',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T14:54:34+08:00 ] 185.189.122.68 GET 114.67.89.3:80/
+[运行时间：0.247860s] [吞吐率：4.03req/s] [内存消耗：3,700.61kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T17:00:04+08:00 ] 91.207.185.122 GET 114.67.89.3:80/
+[运行时间：0.315218s] [吞吐率：3.17req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T17:17:56+08:00 ] 110.77.188.108 GET 114.67.89.3:80/
+[运行时间：0.330409s] [吞吐率：3.03req/s] [内存消耗：3,700.61kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T17:19:44+08:00 ] 71.114.58.138 GET 114.67.89.3/
+[运行时间：0.241051s] [吞吐率：4.15req/s] [内存消耗：3,699.89kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T18:24:27+08:00 ] 36.37.158.155 GET 114.67.89.3:80/
+[运行时间：0.332063s] [吞吐率：3.01req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T18:34:11+08:00 ] 94.182.234.95 GET 114.67.89.3:80/
+[运行时间：0.351070s] [吞吐率：2.85req/s] [内存消耗：3,700.61kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T19:25:52+08:00 ] 81.218.170.52 GET 114.67.89.3:80/
+[运行时间：0.321372s] [吞吐率：3.11req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T19:33:48+08:00 ] 103.47.168.34 GET 114.67.89.3:80/
+[运行时间：0.314776s] [吞吐率：3.18req/s] [内存消耗：3,700.38kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-08T19:36:48+08:00 ] 188.136.205.238 GET 114.67.89.3/
+[运行时间：0.244115s] [吞吐率：4.10req/s] [内存消耗：3,701.26kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/css/oscshop2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '114.67.89.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'x-loop-control' => '188.136.205.238 4726B219AA365F5994E81906D329FAC9, 1.0 internal',
+  'cache-control' => 'max-age=2419200',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /var/www/html/css/oscshop2/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./themes/shop/index/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'cartlist',
+  2 => 'total_price',
+  3 => 'brands',
+  4 => 'empty',
+  5 => 'list',
+  6 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

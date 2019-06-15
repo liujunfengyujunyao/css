@@ -48,11 +48,39 @@
   <link href="__SVIEW__/corporate/css/style-responsive.css" rel="stylesheet">
   <link href="__SVIEW__/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="__SVIEW__/corporate/css/custom.css" rel="stylesheet">
+
   <!-- Theme styles END -->
   <style type="text/css">
     .ecommerce .site-logo{
       padding-top:20px;
       margin-right:20px;
+    }
+    .header-navigation, .header-navigation .dropdown{
+        margin: 0 15px;
+    }
+    li.first_li.dropdown,li.first_li.dropdown:hover{
+        width:200px;
+        background: #e84d1c;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 0;
+        color:#fff;
+    }
+    li.dropdown>a{
+        position: relative;
+    }
+    li.first_li.dropdown>div,li.first_li.dropdown>div:hover,li.first_li.dropdown>div:focus{
+        padding: 34px 12px 32px;
+        background: #e84d1c;
+    }
+    .header-navigation > ul > li.dropdown:hover > a::after{
+       left:40%;
+    }
+    .brands .owl-carousel{
+        padding:0;
+    }
+    .owl-carousel .owl-stage{
+        width:auto!important;
     }
   </style>
   {block name="head"}{/block}
@@ -161,25 +189,48 @@
         <!--END CART -->
 
         <!-- BEGIN NAVIGATION -->
-        <div class="header-navigation">
+        <div class="header-navigation" style="border-bottom: 1px solid #e84d1c;">
           <ul>
-            {volist name="top_nav" id="category"}
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="{:url('/category/'.$category['id'])}">
-               {$category.name}
-              </a>
-                
+
+
+            <li class="dropdown first_li" >
+              <div class="dropdown-toggle" data-toggle="dropdown" data-target="#"  style="color:#fff;">
+               全部分类
+              </div>
               <!-- BEGIN DROPDOWN MENU -->
-              {if condition="isset($category['children'])"}
-              <ul class="dropdown-menu">
-                {volist  name="$category['children']" id="children"}
-                <li><a href="{:url('/category/'.$children['id'])}">{$children.name}</a></li>
-                {/volist} 
+              <ul class="dropdown-menu" style="width:200px;">
+                  {volist name="top_nav" id="category"}
+                    <li class="fir-childmenu">
+                        <a href="{:url('/category/'.$category['id'])}">{$category.name}</a>
+                        {if condition="isset($category['children'])"}
+                        <ul class="dropdown-menu sec-chlidmenu">
+                            {volist  name="$category['children']" id="children"}
+                            <li>
+                                <a href="{:url('/category/'.$children['id'])}">{$children.name}</a>
+                            </li>
+                            {/volist}
+                        </ul>
+                        {/if}
+                    </li>
+                  {/volist}
               </ul>
-              {/if}
               <!-- END DROPDOWN MENU -->
             </li>
-            {/volist}
+            <li class="dropdown" id="brand-nav">
+              <a class="dropdown-toggle" data-toggle="" data-target="#" href="{:url('/index/brand/index')}">
+                  品牌专区
+              </a>
+            </li>
+            <li class="dropdown" id="price-nav">
+              <a class="dropdown-toggle"  data-target="#" href="">
+                  限时特价
+              </a>
+            </li>
+            <li class="dropdown" id="australia-nav">
+              <a class="dropdown-toggle"  data-target="#" href="">
+                  澳洲直邮
+              </a>
+            </li>
             <!-- BEGIN TOP SEARCH -->
             <li class="menu-search">
               <span class="sep"></span>
@@ -187,7 +238,7 @@
               <div class="search-box">
                 <form action="#">
                   <div class="input-group">
-                    <input type="text" placeholder="Search" class="form-control">
+                    <input type="text" placeholder="请输入..." class="form-control">
                     <span class="input-group-btn">
                       <button class="btn btn-primary" type="submit">搜索</button>
                     </span>
@@ -208,15 +259,17 @@
 {/block}
 
     <!-- BEGIN BRANDS -->
+    {if condition="!$no_bottom"}
     <div class="brands">
       <div class="container">
             <div class="owl-carousel owl-carousel6-brands">
                {volist name="brands" id="val"}
-                <a href="{:url('/brand/'.$val['brand_id'])}"><img src="IMG_ROOT{$val.image}" alt="{$val.name}" title="{$val.name}"></a>
+                <a href="{:url('/brand/'.$val['brand_id'])}"><img src="/public/uploads/IMG_ROOT{$val.image}" alt="{$val.name}" title="{$val.name}"></a>
                {/volist}
             </div>
         </div>
     </div>
+    {/if}
     <!-- END BRANDS -->
 
     <!-- BEGIN STEPS -->
@@ -470,7 +523,13 @@
             function(){
                 $(this).removeClass("on");
             });    
-        }); 
+        });
+        $('.fir-childmenu').mouseover(function(){
+            $(this).children('ul').css('display','block');
+            });
+        $('.fir-childmenu').mouseout(function(){
+            $(this).children('ul').css('display','none');
+        });
         $('#reg').click(function(){
           art.dialog.open("/reg", 
             { id:'reg',

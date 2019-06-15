@@ -27,13 +27,12 @@ class HomeBase extends Base{
 		$this->assign('cartlist',$cart_list);
 		$this->assign('total_price',$total_all_price);   
 		$brands=Db::name('brand')
-			->alias('b')				
+			->alias('b')
+            ->limit(0,6)
 			->select();
 		$this->assign('brands',$brands);
+        $this->assign('no_bottom',0);
 		
 	}
-
-
-
 	
 }
