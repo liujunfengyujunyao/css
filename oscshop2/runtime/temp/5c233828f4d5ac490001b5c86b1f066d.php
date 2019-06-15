@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1559207335;s:58:"D:\WWW\osc\css\oscshop2\themes\shop\index\public\base.html";i:1559207335;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index\index.html";i:1559880063;s:56:"D:\WWW\meiyi\oscshop2\themes\shop\index\public\base.html";i:1559880063;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -106,23 +106,6 @@
                 <div class="col-md-6 col-sm-6 additional-shop-info">
                     <ul class="list-unstyled list-inline pull-right">
                         <li><i class="fa fa-weixin" style="font-size: 16px;"></i> <span>yubkhokhjk</span></li>
-                        <!-- BEGIN CURRENCIES -->
-                        <!-- <li class="shop-currencies">
-                            <a href="javascript:void(0);">鈧</a>
-                            <a href="javascript:void(0);">拢</a>
-                            <a href="javascript:void(0);" class="current">$</a>
-                        </li> -->
-                        <!-- END CURRENCIES -->
-                        <!-- BEGIN LANGS -->
-                       <!--  <li class="langs-block">
-                            <a href="javascript:void(0);" class="current">English </a>
-                            <div class="langs-block-others-wrapper"><div class="langs-block-others">
-                              <a href="javascript:void(0);">French</a>
-                              <a href="javascript:void(0);">Germany</a>
-                              <a href="javascript:void(0);">Turkish</a>
-                            </div></div>
-                        </li> -->
-                        <!-- END LANGS -->
                     </ul>
                 </div>
                 <!-- END TOP BAR LEFT PART -->

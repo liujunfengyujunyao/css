@@ -60,6 +60,8 @@ class Category extends AdminBase{
 			
 		}
 		$this->assign('category',osc_goods()->get_category_tree());
+		// halt($category_brand);
+		// halt(osc_goods()->get_category_tree());
 		$this->assign('action',url('Category/add'));
 		$this->assign('crumbs','新增');
 		return $this->fetch('edit');

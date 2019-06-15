@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin\view\index\index.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:40:"./oscshop/admin\view\attribute\edit.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -204,167 +204,69 @@
 			<div class="main-content">
 				<div class="main-content-inner">
 					<div class="page-content">
-						
-<link rel="stylesheet" href="/public/static/view_res/admin/css/index.css" />	
+							
+
+<div class="page-header">	
+<h1>
+	<?php echo $breadcrumb1; ?>
+	<small>
+		<i class="ace-icon fa fa-angle-double-right"></i>
+		<?php echo $breadcrumb2; ?>
+	</small>
+	<small>
+		<i class="ace-icon fa fa-angle-double-right"></i>
+		<?php echo $crumbs; ?>
+	</small>			
+<button name="send"  type="submit" style="float:right;"  class="btn button btn-sm btn-primary">提交</button>
+</h1>
+
+</div>
 <div class="row">
 	<div class="col-xs-12">	
-		    <div class="row">
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-						<div class="tile-heading">
-							今日订单
-							<span class="pull-right"> 总<?php echo $total_order; ?>单</span>
-						</div>
-						<div class="tile-body">
-							<i class="fa fa-shopping-cart"></i>
-							<h2 class="pull-right"><?php echo $today_order; ?></h2>
-						</div>
-						<div class="tile-footer">
-							<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-						</div>
-					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					今日销售额 
-					<span class="pull-right"> 总<?php echo $total_money; ?> </span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-credit-card"></i>
-					<h2 class="pull-right"><?php echo $today_money; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div> 	
-		      </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					新增客户 
-					<span class="pull-right"> 总<?php echo $member_count; ?>个</span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-user"></i>
-					<h2 class="pull-right"><?php echo $today_member; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/MemberBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">新增用户行为
-					<span class="pull-right"> 总<?php echo $user_action_total; ?>个</span>	
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-eye"></i>
-					<h2 class="pull-right"><?php echo $today_user_action; ?>个</h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('admin/UserAction/index'); ?>">显示详细...</a>
-					</div>
-					</div>	  
-			  </div>
-		    </div>
-		    <div class="row">
-		      <div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
-				  	<div class="panel panel-default">
-					<div class="panel-heading">
-					<h3 class="panel-title">
-					<i class="fa fa-calendar"></i>
-					用户行为
-					<a style="font-size: 14px" href="<?php echo url('UserAction/index'); ?>" class="pull-right">更多..</a>
-					</h3>
-					</div>
-					<ul class="list-group">
-						
-						<?php if(is_array($user_action) || $user_action instanceof \think\Collection || $user_action instanceof \think\Paginator): $i = 0; $__LIST__ = $user_action;if( count($__LIST__)==0 ) : echo "$uc_empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-							<li class="list-group-item">
-							<?php if(empty($v['uname'])): ?>	
-								<a href="<?php echo url('member/MemberBackend/edit',array('id'=>$v['user_id'])); ?>"><?php echo $v['user_id']; ?></a>
-							<?php else: ?>
-								 <?php echo $v['uname']; endif; ?>
-							
-							<?php echo $v['info']; ?>
-							<br>
-							<small class="text-muted">						
-								<?php echo date("Y-m-d H:i:s",$v['add_time']); ?>
-							</small>
-							</li>	
-						<?php endforeach; endif; else: echo "$uc_empty" ;endif; ?>
-					</ul>
-					</div>
-			  </div>
-		      <div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
-		      	<div class="panel panel-default">
-		      		<div class="panel-heading">
-						<h3 class="panel-title">
-						<i class="fa fa-shopping-cart"></i>
-						最新订单
-						<a style="font-size: 14px" href="<?php echo url('member/OrderBackend/index'); ?>" class="pull-right">更多..</a>
-						</h3>
-					</div>
-					<div class="table-responsive">
-						<table class="table">
-							<thead>
-							<tr>
-							<td>订单号</td>
-							<td>支付方式</td>
-							<th>客户端</th> 
-							<td>客户名称</td>
-							<td>状态</td>
-							<td>生成日期</td>
-							<td>金额</td>
-							<td>操作</td>
-							</tr>
-							</thead>
-							<tbody>								
-								<?php if(is_array($order_list) || $order_list instanceof \think\Collection || $order_list instanceof \think\Paginator): $i = 0; $__LIST__ = $order_list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-								<tr>
-									<td>
-										<?php echo $v['order_num_alias']; ?>
-									</td>
-									<td>
-										<?php echo $v['payment_code']; ?>
-									</td>
-									<td>
-										<?php echo $v['reg_type']; ?>
-									</td>
-									<td>
-										<?php if($v['reg_type'] != 'weixin'): ?>
-											<?php echo $v['username']; else: ?>
-											<?php echo $v['nickname']; endif; ?>
-									</td>
-									<td>
-										<?php echo $v['name']; ?>
-									</td>
-									<td>
-										<?php echo date('Y-m-d H:i:s',$v['date_added']); ?>
-									</td>
-									<td>
-										<?php if($v['points_order'] == 1): ?>
-											积分 <?php echo $v['pay_points']; else: ?>
-											&yen; <?php echo $v['total']; endif; ?>										
-									</td>
-									<td>
-										<a  class="btn btn-info" href='<?php echo url("member/OrderBackend/show_order",array("id"=>$v["order_id"])); ?>'>
-											<i class="fa-eye fa"></i>
-										</a> 
-									</td>
-								</tr>
-								<?php endforeach; endif; else: echo "$empty" ;endif; ?>	
-							</tbody>
-						</table>
-						
-					</div>
-		      	</div>
-		      	
-		      	
-			  </div>
-		    </div>
+		
+		<div class="form-horizontal">
+			<?php if(\think\Request::instance()->param('id')): ?>
+			<input name="id" type="hidden" value="<?php echo \think\Request::instance()->param('id'); ?>" />
+			<?php endif; ?>
+			
+		
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label"> * 属性名称 </label>
+			<div class="col-sm-10">
+				<div class="clearfix">
+					<input name="name" id="name" class="col-xs-10 col-sm-5"  value="<?php echo (isset($attribute['name']) && ($attribute['name'] !== '')?$attribute['name']:''); ?>" type="text">
+				</div>
+			</div>			 
+			</div>
+
+			
+			<table id="attribute-value" class="table table-striped table-bordered table-hover">
+				<thead>
+					<tr>
+						<td class="text-left required">属性值：</td>						
+						<td class="text-left">  排序：</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody>
+					<?php $attribute_value_row = 1; if(isset($attribute_values)){ foreach ($attribute_values as $attribute_value) { ?>
+		              <tr id="attribute-value-row<?php echo $attribute_value_row; ?>">
+		                <td class="text-left">
+		                	<input type="text" name="attribute_value[<?php echo $attribute_value_row; ?>][name]" value="<?php echo $attribute_value['value_name']; ?>"  class="form-control"  />
+		                </td>
+		               
+		                <td class="text-right"><input type="text" name="attribute_value[<?php echo $attribute_value_row; ?>][sort_order]" value="<?php echo $attribute_value['value_sort_order']; ?>" class="form-control" /></td>
+		                <td class="text-left"><button type="button" onclick="$('#attribute-value-row<?php echo $attribute_value_row; ?>').remove();" data-toggle="tooltip"  class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+		              </tr>
+		              <?php $attribute_value_row++; } } ?>
+				</tbody>
+			</table>
+			<div>
+				<a class="add_image btn btn-primary " onclick="addAttributeValue();">添加属性值</a>
+			</div>
+			
+		</div>
 	</div>
 </div>
 
@@ -408,7 +310,39 @@
 		<script src="/public/static/view_res/admin/ace/js/ace.min.js"></script>
 
 		
-								
-		
+
+<script>
+var attribute_value_row = '<?php echo $attribute_value_row; ?>';
+
+function addAttributeValue() {
+	html  = '<tr id="attribute-value-row' + attribute_value_row + '">';		
+	html += '<td class="text-left">';
+	html += '<div><input type="text" name="attribute_value[' + attribute_value_row + '][name]" value=""  class="form-control" />';
+    html += '</div>';	
+	html += '</td>';
+	html += '  <td class="text-right"><input type="text" name="attribute_value[' + attribute_value_row + '][sort_order]" value="' + attribute_value_row + '" class="form-control" /></td>';
+	html += '  <td class="text-left"><button type="button" onclick="$(\'#attribute-value-row' + attribute_value_row + '\').remove();" data-toggle="tooltip"  class="btn btn-danger"><i class="fa fa-trash"></i></button></td>';
+	html += '</tr>';	
+	
+	$('#attribute-value tbody').append(html);
+	
+	attribute_value_row++;
+}
+
+
+var back_index="<?php echo url('attribute/index'); ?>";
+
+$('.button').click(function(){
+	$.post(
+		'<?php echo $action; ?>',
+		$('input[type=\'text\'],select,input[type=\'hidden\']'),
+		function(d){
+			art_dialog(d,back_index);
+		}
+	);
+});
+
+</script>							
+
 	</body>
 </html>

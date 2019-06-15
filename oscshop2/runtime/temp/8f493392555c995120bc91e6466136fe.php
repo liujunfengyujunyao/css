@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin\view\brand\edit.html";i:1559014564;s:59:"D:\WWW\osc\css\oscshop2\oscshop\admin\view\public\base.html";i:1559014564;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./oscshop/admin\view\attribute\index.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -76,6 +76,7 @@
 				<div class="navbar-header pull-left">
 					<a href="<?php echo url('admin/Index/index'); ?>" class="navbar-brand">
 						<small>							
+							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 						</small>
 					</a>
@@ -203,65 +204,56 @@
 			<div class="main-content">
 				<div class="main-content-inner">
 					<div class="page-content">
-						
+							
 <div class="page-header">
-	<h1>
+	<h1>	
 		<?php echo $breadcrumb1; ?>
 		<small>
 			<i class="ace-icon fa fa-angle-double-right"></i>
 			<?php echo $breadcrumb2; ?>
 		</small>
-		<small>
-			<i class="ace-icon fa fa-angle-double-right"></i>
-			<?php echo $crumbs; ?>
-		</small>			
-	
 	</h1>
 </div>
-
+<div class="page-header">
+	<a href="<?php echo url('Attribute/add'); ?>" class="btn btn-primary">新增属性</a>
+</div>	
+	
 <div class="row">
 	<div class="col-xs-12">	
-		
-		<div class="form-horizontal">
-			
-			<?php if(\think\Request::instance()->param('id')): ?>
-			<input name="brand_id" type="hidden" value="<?php echo \think\Request::instance()->param('id'); ?>" />
-			<?php endif; ?>
-			
-			<div class="form-group">
-                <label class="col-sm-1 control-label" for="input-image">
-                	<span title="" data-toggle="tooltip" data-original-title="上传200x200的图片">品牌图片：</span>
-                </label>	                
-	            <div class="col-sm-10" id="thumb">
-	                  <a id="thumb-image" href="#" data-toggle="image" class="img-thumbnail">
-		                  	<?php if(isset($d['image'])): ?>
-		                  		<img src="/<?php echo resize($d['image'],100,100); ?>" />
-		                  	<?php else: ?>
-		                  		<img src="/public/static/image/no_image_100x100.jpg" />
-		                  	<?php endif; ?>
-							</a>
-	                  <input type="hidden" name="image" value="<?php echo (isset($d['image']) && ($d['image'] !== '')?$d['image']:''); ?>" id="input-image" />
-	            </div>		            
-		    </div> 
-			
-			<div class="form-group">
-				<label class="col-sm-1 control-label no-padding-left"> * 品牌名称 </label>
-			<div class="col-sm-5">
-				<div class="clearfix">
-				<input name="name" class="col-xs-10 col-sm-5"  value="<?php echo (isset($d['name']) && ($d['name'] !== '')?$d['name']:''); ?>" type="text">
-				</div>
-			</div>
-			</div>
-			<div class="space-4"></div>
-			
-			
-			
-			<div class="form-group">
-				<label class="col-sm-1 control-label no-padding-left"> </label>	
-				<div class="col-sm-11">
-					<input id="send" name="send" type="submit" value="提交" class="btn btn-primary" />
-				</div>
-			</div>
+		<div class="table-responsive">
+			<table class="table table-striped table-bordered table-hover">
+				<thead>
+					<tr>											
+						<th>属性名称</th>
+						<th>属性值</th> 
+				
+						
+						<th>操作</th>				
+					</tr>
+				</thead>
+				<tbody>
+						<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$a): $mod = ($i % 2 );++$i;?>
+						<tr>		
+							<td><?php echo $a['name']; ?></td>		
+							<td><?php echo $a['value']; ?></td>	
+								
+							<td>
+								<a  class="btn btn-xs btn-info" href='<?php echo url("Attribute/edit",array("id"=>$a["attribute_id"])); ?>'>
+									<i class="fa fa-edit bigger-120"></i>
+								</a> 
+								<a class="delete btn btn-xs btn-danger" href='<?php echo url("Attribute/del",array("id"=>$a["attribute_id"])); ?>' >
+									<i class="fa fa-trash bigger-120"></i>
+								</a>
+							</td>
+						</tr>
+						<?php endforeach; endif; else: echo "$empty" ;endif; ?>	
+						
+						<tr>
+							<td colspan="20" class="page"><?php echo $list->render(); ?></td>
+						</tr>
+				</tbody>
+				
+			</table>
 		</div>
 	</div>
 </div>
@@ -306,21 +298,7 @@
 		<script src="/public/static/view_res/admin/ace/js/ace.min.js"></script>
 
 		
-
-<script>
-
-var back_index="<?php echo url('brand/index'); ?>";
-
-$('#send').click(function(){
-	$.post(
-		'<?php echo $action; ?>',
-		$('.form-horizontal input[type=\'text\'],.form-horizontal input[type=\'hidden\']'),
-		function(d){
-			art_dialog(d,back_index);
-		}
-	);
-});
-</script>							
-
+								
+		
 	</body>
 </html>

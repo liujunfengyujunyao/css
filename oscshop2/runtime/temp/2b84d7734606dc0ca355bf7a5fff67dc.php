@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin\view\index\index.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:33:"./oscshop/admin\view\ad\edit.html";i:1560068176;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -205,166 +205,83 @@
 				<div class="main-content-inner">
 					<div class="page-content">
 						
-<link rel="stylesheet" href="/public/static/view_res/admin/css/index.css" />	
+<div class="page-header">
+	<h1>
+		广告
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			广告管理
+		</small>
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			添加模块
+		</small>			
+	
+	</h1>
+</div>
+
 <div class="row">
 	<div class="col-xs-12">	
-		    <div class="row">
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-						<div class="tile-heading">
-							今日订单
-							<span class="pull-right"> 总<?php echo $total_order; ?>单</span>
-						</div>
-						<div class="tile-body">
-							<i class="fa fa-shopping-cart"></i>
-							<h2 class="pull-right"><?php echo $today_order; ?></h2>
-						</div>
-						<div class="tile-footer">
-							<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-						</div>
+		
+		<div class="form-horizontal">
+			
+			<?php if(\think\Request::instance()->param('id')): ?>
+			<input name="id" type="hidden" value="<?php echo \think\Request::instance()->param('id'); ?>" />
+			<?php endif; ?>
+			
+			<div class="form-group">
+                <label class="col-sm-2 control-label" for="input-image">
+                	分类图标
+                </label>	                
+	            <div class="col-sm-10" id="thumb">
+	                  <a id="thumb-image" href="#" data-toggle="image" class="img-thumbnail">
+		                  	<?php if(!empty($cat['image'])): ?>
+		                  		<img src="/<?php echo resize($cat['image'],100,100); ?>" />
+		                  	<?php else: ?>
+		                  		<img src="/public/static/image/no_image_100x100.jpg" />
+		                  	<?php endif; ?>
+							</a>
+	                  <input type="hidden" name="image" value="<?php echo (isset($cat['image']) && ($cat['image'] !== '')?$cat['image']:''); ?>" id="input-image" />
+	            </div>		            
+		    </div> 
+	
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left"> * 分类名称 </label>
+				<div class="col-sm-5">
+					<div class="clearfix">
+						<input name="name" class="col-xs-10 col-sm-5"  value="<?php echo (isset($cat['name']) && ($cat['name'] !== '')?$cat['name']:''); ?>" type="text">
 					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					今日销售额 
-					<span class="pull-right"> 总<?php echo $total_money; ?> </span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-credit-card"></i>
-					<h2 class="pull-right"><?php echo $today_money; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div> 	
-		      </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					新增客户 
-					<span class="pull-right"> 总<?php echo $member_count; ?>个</span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-user"></i>
-					<h2 class="pull-right"><?php echo $today_member; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/MemberBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">新增用户行为
-					<span class="pull-right"> 总<?php echo $user_action_total; ?>个</span>	
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-eye"></i>
-					<h2 class="pull-right"><?php echo $today_user_action; ?>个</h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('admin/UserAction/index'); ?>">显示详细...</a>
-					</div>
-					</div>	  
-			  </div>
-		    </div>
-		    <div class="row">
-		      <div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
-				  	<div class="panel panel-default">
-					<div class="panel-heading">
-					<h3 class="panel-title">
-					<i class="fa fa-calendar"></i>
-					用户行为
-					<a style="font-size: 14px" href="<?php echo url('UserAction/index'); ?>" class="pull-right">更多..</a>
-					</h3>
-					</div>
-					<ul class="list-group">
-						
-						<?php if(is_array($user_action) || $user_action instanceof \think\Collection || $user_action instanceof \think\Paginator): $i = 0; $__LIST__ = $user_action;if( count($__LIST__)==0 ) : echo "$uc_empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-							<li class="list-group-item">
-							<?php if(empty($v['uname'])): ?>	
-								<a href="<?php echo url('member/MemberBackend/edit',array('id'=>$v['user_id'])); ?>"><?php echo $v['user_id']; ?></a>
-							<?php else: ?>
-								 <?php echo $v['uname']; endif; ?>
-							
-							<?php echo $v['info']; ?>
-							<br>
-							<small class="text-muted">						
-								<?php echo date("Y-m-d H:i:s",$v['add_time']); ?>
-							</small>
-							</li>	
-						<?php endforeach; endif; else: echo "$uc_empty" ;endif; ?>
-					</ul>
-					</div>
-			  </div>
-		      <div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
-		      	<div class="panel panel-default">
-		      		<div class="panel-heading">
-						<h3 class="panel-title">
-						<i class="fa fa-shopping-cart"></i>
-						最新订单
-						<a style="font-size: 14px" href="<?php echo url('member/OrderBackend/index'); ?>" class="pull-right">更多..</a>
-						</h3>
-					</div>
-					<div class="table-responsive">
-						<table class="table">
-							<thead>
-							<tr>
-							<td>订单号</td>
-							<td>支付方式</td>
-							<th>客户端</th> 
-							<td>客户名称</td>
-							<td>状态</td>
-							<td>生成日期</td>
-							<td>金额</td>
-							<td>操作</td>
-							</tr>
-							</thead>
-							<tbody>								
-								<?php if(is_array($order_list) || $order_list instanceof \think\Collection || $order_list instanceof \think\Paginator): $i = 0; $__LIST__ = $order_list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-								<tr>
-									<td>
-										<?php echo $v['order_num_alias']; ?>
-									</td>
-									<td>
-										<?php echo $v['payment_code']; ?>
-									</td>
-									<td>
-										<?php echo $v['reg_type']; ?>
-									</td>
-									<td>
-										<?php if($v['reg_type'] != 'weixin'): ?>
-											<?php echo $v['username']; else: ?>
-											<?php echo $v['nickname']; endif; ?>
-									</td>
-									<td>
-										<?php echo $v['name']; ?>
-									</td>
-									<td>
-										<?php echo date('Y-m-d H:i:s',$v['date_added']); ?>
-									</td>
-									<td>
-										<?php if($v['points_order'] == 1): ?>
-											积分 <?php echo $v['pay_points']; else: ?>
-											&yen; <?php echo $v['total']; endif; ?>										
-									</td>
-									<td>
-										<a  class="btn btn-info" href='<?php echo url("member/OrderBackend/show_order",array("id"=>$v["order_id"])); ?>'>
-											<i class="fa-eye fa"></i>
-										</a> 
-									</td>
-								</tr>
-								<?php endforeach; endif; else: echo "$empty" ;endif; ?>	
-							</tbody>
-						</table>
-						
-					</div>
-		      	</div>
-		      	
-		      	
-			  </div>
-		    </div>
+				</div>
+			</div>
+			
+			<div class="space-4"></div>
+			
+			<!-- <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-description">关键字：</label>
+                <div class="col-sm-10">
+                  <textarea name="meta_keyword" class="form-control" rows="5"><?php echo (isset($cat['meta_keyword']) && ($cat['meta_keyword'] !== '')?$cat['meta_keyword']:''); ?></textarea>	
+                </div>
+          	</div> -->
+          	
+          	<div class="form-group">
+                <label class="col-sm-2 control-label" for="input-description">描述：</label>
+                <div class="col-sm-10">
+                  <textarea name="meta_description" class="form-control" rows="5"><?php echo (isset($cat['meta_description']) && ($cat['meta_description'] !== '')?$cat['meta_description']:''); ?></textarea>	
+                </div>
+          	</div>
+			
+			
+	
+          	
+        
+			
+			<div class="form-group">
+				<label class="col-sm-1 control-label no-padding-left"> </label>	
+				<div class="col-sm-11">
+					<input id="send" name="send" type="submit" value="提交" class="btn btn-primary" />
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -408,7 +325,22 @@
 		<script src="/public/static/view_res/admin/ace/js/ace.min.js"></script>
 
 		
-								
-		
+
+<script>
+var back_index="<?php echo url('ad/module_index'); ?>";
+
+$('#send').click(function(){
+	$.post(
+		'<?php echo $action; ?>',
+		$('input[type=\'text\'],input[type=\'hidden\'],select,textarea'),
+		function(d){
+			art_dialog(d,back_index);
+		}
+	);
+});
+
+
+</script>							
+
 	</body>
 </html>

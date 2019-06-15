@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin\view\index\index.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin\view\menu\index.html";i:1559880061;s:57:"D:\WWW\meiyi\oscshop2\oscshop\admin\view\public\base.html";i:1559881380;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -205,168 +205,63 @@
 				<div class="main-content-inner">
 					<div class="page-content">
 						
-<link rel="stylesheet" href="/public/static/view_res/admin/css/index.css" />	
-<div class="row">
-	<div class="col-xs-12">	
-		    <div class="row">
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-						<div class="tile-heading">
-							今日订单
-							<span class="pull-right"> 总<?php echo $total_order; ?>单</span>
-						</div>
-						<div class="tile-body">
-							<i class="fa fa-shopping-cart"></i>
-							<h2 class="pull-right"><?php echo $today_order; ?></h2>
-						</div>
-						<div class="tile-footer">
-							<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-						</div>
-					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					今日销售额 
-					<span class="pull-right"> 总<?php echo $total_money; ?> </span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-credit-card"></i>
-					<h2 class="pull-right"><?php echo $today_money; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/OrderBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div> 	
-		      </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">
-					新增客户 
-					<span class="pull-right"> 总<?php echo $member_count; ?>个</span>
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-user"></i>
-					<h2 class="pull-right"><?php echo $today_member; ?></h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('member/MemberBackend/index'); ?>">显示详细...</a>
-					</div>
-					</div>
-			  </div>
-		      <div class="col-lg-3 col-md-3 col-sm-6">
-					<div class="tile">
-					<div class="tile-heading">新增用户行为
-					<span class="pull-right"> 总<?php echo $user_action_total; ?>个</span>	
-					</div>
-					<div class="tile-body">
-					<i class="fa fa-eye"></i>
-					<h2 class="pull-right"><?php echo $today_user_action; ?>个</h2>
-					</div>
-					<div class="tile-footer">
-					<a href="<?php echo url('admin/UserAction/index'); ?>">显示详细...</a>
-					</div>
-					</div>	  
-			  </div>
-		    </div>
-		    <div class="row">
-		      <div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
-				  	<div class="panel panel-default">
-					<div class="panel-heading">
-					<h3 class="panel-title">
-					<i class="fa fa-calendar"></i>
-					用户行为
-					<a style="font-size: 14px" href="<?php echo url('UserAction/index'); ?>" class="pull-right">更多..</a>
-					</h3>
-					</div>
-					<ul class="list-group">
-						
-						<?php if(is_array($user_action) || $user_action instanceof \think\Collection || $user_action instanceof \think\Paginator): $i = 0; $__LIST__ = $user_action;if( count($__LIST__)==0 ) : echo "$uc_empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-							<li class="list-group-item">
-							<?php if(empty($v['uname'])): ?>	
-								<a href="<?php echo url('member/MemberBackend/edit',array('id'=>$v['user_id'])); ?>"><?php echo $v['user_id']; ?></a>
-							<?php else: ?>
-								 <?php echo $v['uname']; endif; ?>
-							
-							<?php echo $v['info']; ?>
-							<br>
-							<small class="text-muted">						
-								<?php echo date("Y-m-d H:i:s",$v['add_time']); ?>
-							</small>
-							</li>	
-						<?php endforeach; endif; else: echo "$uc_empty" ;endif; ?>
-					</ul>
-					</div>
-			  </div>
-		      <div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
-		      	<div class="panel panel-default">
-		      		<div class="panel-heading">
-						<h3 class="panel-title">
-						<i class="fa fa-shopping-cart"></i>
-						最新订单
-						<a style="font-size: 14px" href="<?php echo url('member/OrderBackend/index'); ?>" class="pull-right">更多..</a>
-						</h3>
-					</div>
-					<div class="table-responsive">
-						<table class="table">
-							<thead>
-							<tr>
-							<td>订单号</td>
-							<td>支付方式</td>
-							<th>客户端</th> 
-							<td>客户名称</td>
-							<td>状态</td>
-							<td>生成日期</td>
-							<td>金额</td>
-							<td>操作</td>
-							</tr>
-							</thead>
-							<tbody>								
-								<?php if(is_array($order_list) || $order_list instanceof \think\Collection || $order_list instanceof \think\Paginator): $i = 0; $__LIST__ = $order_list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-								<tr>
-									<td>
-										<?php echo $v['order_num_alias']; ?>
-									</td>
-									<td>
-										<?php echo $v['payment_code']; ?>
-									</td>
-									<td>
-										<?php echo $v['reg_type']; ?>
-									</td>
-									<td>
-										<?php if($v['reg_type'] != 'weixin'): ?>
-											<?php echo $v['username']; else: ?>
-											<?php echo $v['nickname']; endif; ?>
-									</td>
-									<td>
-										<?php echo $v['name']; ?>
-									</td>
-									<td>
-										<?php echo date('Y-m-d H:i:s',$v['date_added']); ?>
-									</td>
-									<td>
-										<?php if($v['points_order'] == 1): ?>
-											积分 <?php echo $v['pay_points']; else: ?>
-											&yen; <?php echo $v['total']; endif; ?>										
-									</td>
-									<td>
-										<a  class="btn btn-info" href='<?php echo url("member/OrderBackend/show_order",array("id"=>$v["order_id"])); ?>'>
-											<i class="fa-eye fa"></i>
-										</a> 
-									</td>
-								</tr>
-								<?php endforeach; endif; else: echo "$empty" ;endif; ?>	
-							</tbody>
-						</table>
-						
-					</div>
-		      	</div>
-		      	
-		      	
-			  </div>
-		    </div>
-	</div>
+<div class="page-header">
+	<h1>	
+		<?php echo $breadcrumb1; ?>
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			<?php echo $breadcrumb2; ?>
+		</small>
+	</h1>
 </div>
+<div class="page-header">
+	<a id="addParent" class="btn btn-primary">新增</a>
+	<a id="edit" class="btn btn-primary">编辑</a>
+	<a id="remove" class="btn btn-primary">删除</a>
+</div>
+
+<div class="row">
+	<div id="category_tree" class="ztree"></div>
+</div>
+
+	
+	<div id="dialog" class="dialog" style="display:none">
+    <div class="dialog_content">
+    
+        <dl>
+        	<dt>菜单名称</dt>
+        	<dd><input type="text" name="title" class="text" /></dd>
+        	<dt>URL</dt>
+    		<dd><input name="url" type="text" value="" size="50"  /></dd>    	
+    		
+    		<dt>模块</dt>
+    		<dd><input name="module" type="text" value=""  /></dd>  
+    		
+    		<dt>图标</dt>
+    		<dd><input name="icon" type="text" value=""  /></dd> 
+    		
+    		<dt>类型</dt>
+    		<dd>
+    			<label>
+    				<input id="nav" name="type" type="radio" value="nav" checked="checked" /> 显示 
+    			</label>
+    			<label>
+    				<input id="auth" name="type" type="radio" value="auth"  /> 不显示 
+    			</label>
+    		</dd>   
+    			
+    		<dt>排序</dt>
+    		<dd>
+    			<input name="sort_order" type="text" value="" />
+    		</dd>
+    		
+    		
+        </dl>       
+   
+      
+    </div>
+  </div> 
+	
 
 					</div><!-- /.page-content -->
 				</div>
@@ -408,7 +303,208 @@
 		<script src="/public/static/view_res/admin/ace/js/ace.min.js"></script>
 
 		
-								
-		
+<script src="/public/static/ztree/jquery.ztree.all-3.5.min.js"></script>
+<link  rel="stylesheet" type="text/css" href="/public/static/ztree/zTreeStyle.css" />
+<link  rel="stylesheet" type="text/css" href="/public/static/ztree/tree.css" />
+<script>
+		var setting = {
+			view: {
+				addHoverDom: false,
+				removeHoverDom: false,
+				selectedMulti: false
+			},
+			edit: {
+				enable: true,
+				editNameSelectAll: true,
+				showRemoveBtn: false,
+				showRenameBtn: false
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			}
+		};
+
+	
+	
+	var zNodes =<?php echo $list; ?>;
+
+
+function save(type){
+		var zTree = $.fn.zTree.getZTreeObj("category_tree"),
+
+		nodes = zTree.getSelectedNodes(),
+		treeNode = nodes[0];
+
+		if(treeNode!=undefined){
+			var isp= nodes[0].isParent;
+		}else{
+			var isp= true;
+		}			
+		var id=(treeNode==undefined?0:treeNode.id);
+
+		if(type=='add'){
+			url='<?php echo url("Menu/add"); ?>';
+		}else if(type=='edit'){
+			url='<?php echo url("Menu/edit"); ?>';
+		}
+
+		$.post(
+			url,
+			{					
+				'id':id,
+				'title':$("input[name='title']").val(),
+				'url':$("input[name='url']").val(),
+				'sort_order':$("input[name='sort_order']").val(),		
+				'module':$("input[name='module']").val(),	
+				'icon':$("input[name='icon']").val(),	
+				'type':$("input[name='type']:checked").val(),			
+				
+				
+			},
+			function(d){	
+				
+			    if(type=='add'){						
+						if(d.error){
+							alert(d.error);
+						
+						}else if(d.status=='success'){											
+							//有父节点
+					    	if(treeNode){
+					    		treeNode = zTree.addNodes(treeNode, {id:d.id, pId:id, isParent:isp, name:d.name});
+					    	}else{
+					    		treeNode = zTree.addNodes(treeNode, {id:d.id, pId:0, isParent:isp, name:d.name});
+					    	}
+					    	
+					    	close_artDialog();
+					    }	
+					}else if(type=='edit'){
+						
+						if(d.success){
+							nodes[0].name = d.name;
+							zTree.updateNode(nodes[0]);
+							
+							close_artDialog();
+						}
+						if(d.error){
+							alert(d.error);
+						}
+						
+						
+					}
+			}
+		);	
+}
+
+function add(e) {
+	
+	var dialog=$('#dialog').html();
+	
+	var title='新增菜单';
+	
+	art.dialog({
+		title: title,
+		content:dialog,
+		lock: true,
+		ok: function () {	 		
+	 	  save('add');	    	
+	      return false;
+	    },
+	    cancelVal: '关闭',
+		cancel: true 
+	});	
+}
+function edit() {
+	
+	var zTree = $.fn.zTree.getZTreeObj("category_tree"),
+		nodes = zTree.getSelectedNodes(),
+		treeNode = nodes[0];
+		if (nodes.length == 0) {
+			alert("请先选择一个节点");
+			return;
+		}else{
+			var id=treeNode.id;
+			$.post(
+				'<?php echo url("Menu/get_info"); ?>',
+				{					
+					'id':id,
+					
+				},
+				function(d){			
+					$("input[name='title']").val(d.title);
+					$("input[name='url']").val(d.url);
+					$("input[name='sort_order']").val(d.sort_order);
+					$("input[name='module']").val(d.module);
+					$("input[name='icon']").val(d.icon);
+					
+					
+					if(d.type=='nav'){
+						$("#nav").attr("checked","checked");
+					}else if(d.type=='auth'){
+						$("#auth").attr("checked","checked");
+					}
+				}
+			);				
+		}
+			
+	var dialog=$('#dialog').html();
+
+	var title='修改菜单';
+	
+	art.dialog({
+		title: title,
+			content:dialog,
+			lock: true,
+			ok: function () {
+				save('edit');
+				return false;
+			},
+		    cancelVal: '关闭',
+			cancel: true 
+	});	
+				
+	
+}
+function remove(e) {
+	
+			if(!confirm('确认要删除吗！！')){
+				return false;
+			}
+			
+			var zTree = $.fn.zTree.getZTreeObj("category_tree"),
+			nodes = zTree.getSelectedNodes(),
+			treeNode = nodes[0];
+			if (nodes.length == 0) {
+				alert("请先选择一个节点");
+				return;
+			}
+			$.post(
+				'<?php echo url("Menu/del"); ?>',
+				{					
+					'id':treeNode.id,					
+				},
+				function(d){			
+					if(d.error){
+						alert(d.error);
+					}else{						
+						zTree.removeNode(treeNode);
+					}
+					
+					
+				}
+			);
+}
+
+
+$(document).ready(function(){
+	$.fn.zTree.init($("#category_tree"), setting, zNodes);
+	$("#addParent").bind("click", {isParent:true}, add);
+	$("#edit").bind("click", edit);
+	$("#remove").bind("click", remove);
+});
+	
+</script>
+
 	</body>
 </html>
