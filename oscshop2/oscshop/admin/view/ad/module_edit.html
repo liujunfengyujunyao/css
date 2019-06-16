@@ -9,7 +9,7 @@
 		</small>
 		<small>
 			<i class="ace-icon fa fa-angle-double-right"></i>
-			添加模块
+			{$module}
 		</small>			
 	
 	</h1>
@@ -24,7 +24,7 @@
 			<input name="id" type="hidden" value="{$Request.param.id}" />
 			{/if}
 			
-			<div class="form-group">
+		<!-- 	<div class="form-group">
                 <label class="col-sm-2 control-label" for="input-image">
                 	分类图标
                 </label>	                
@@ -39,12 +39,12 @@
 	                  <input type="hidden" name="image" value="{$cat.image|default=''}" id="input-image" />
 	            </div>		            
 		    </div> 
-	
+	 -->
 			<div class="form-group">
 				<label class="col-sm-2 control-label no-padding-left"> * 分类名称 </label>
 				<div class="col-sm-5">
 					<div class="clearfix">
-						<input name="name" class="col-xs-10 col-sm-5"  value="{$cat.name|default=''}" type="text">
+						<input name="name" class="col-xs-10 col-sm-5"  value="{$cat.module_name|default=''}" type="text">
 					</div>
 				</div>
 			</div>

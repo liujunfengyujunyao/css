@@ -25,7 +25,7 @@
 				<thead>
 					<tr>
 						<th>排序</th> 		
-						<th>图片</th> 									
+						<!-- <th>图片</th> 									 -->
 						<th>分类名称</th>					
 						<th>操作</th>				
 					</tr>
@@ -36,7 +36,7 @@
 						<td>
 							<input name="sort" type="text" size="1" class="sort" cid='{$cat.id}' value="{$cat.sort_order}" />								
 						</td>
-						<td>
+					<!-- 	<td>
 							<a href="{:url('Ad/index',array('pid'=>$cat['id']))}">
 								{if condition="$cat['image']"}
 		                  			<img src="IMG_ROOT{$cat.image|resize=50,50}" />
@@ -44,13 +44,13 @@
 			                  		<img src="__PUBLIC__/image/no_image_50x50.jpg" />
 			                  	{/if}
 		                  	</a>
-						</td>
+						</td> -->
 						<td>{$cat.module_name}</td>
 						<td>
 							<a  class="btn btn-xs btn-info" href='{:url("ad/module_edit",array("id"=>$cat["id"]))}'>
 								<i class="fa fa-edit bigger-120"></i>
 							</a> 
-							<a class="delete btn btn-xs btn-danger" href='{:url("category/del",array("id"=>$cat["id"]))}' >
+							<a class="delete btn btn-xs btn-danger" href='{:url("Ad/module_del",array("id"=>$cat["id"]))}' >
 								<i class="fa fa-trash bigger-120"></i>
 							</a>
 						</td>

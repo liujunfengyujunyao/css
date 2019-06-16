@@ -26,6 +26,7 @@ class Category extends Model{
 		$category['image']=$data['image'];
 		$category['pid']=$data['pid'];
 		$category['name']=$data['name'];
+		$category['sort_order']=$data['sort_order'];
 		$category['meta_keyword']=$data['meta_keyword'];
 		$category['meta_description']=$data['meta_description'];
 		$category['update_time']=time();
@@ -63,6 +64,7 @@ class Category extends Model{
 		$category['image']=$data['image'];
 		$category['pid']=$data['pid'];
 		$category['name']=$data['name'];
+		$category['sort_order']=$data['sort_order'];
 		$category['meta_keyword']=$data['meta_keyword'];
 		$category['meta_description']=$data['meta_description'];
 		$category['update_time']=time();
