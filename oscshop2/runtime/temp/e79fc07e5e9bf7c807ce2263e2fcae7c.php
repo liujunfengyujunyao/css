@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:39:"./themes/shop/index/category/index.html";i:1560244742;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560232615;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:39:"./themes/shop/index/category/index.html";i:1560682220;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560576167;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -270,7 +270,7 @@
 		<ul class="breadcrumb">
 			<li><a href="<?php echo url('/index'); ?>">首页</a></li>
 			<?php if(isset($pcate)): ?>
-			<li><a href="<?php echo url('/categroy/'.$pcate['id']); ?>"><?php echo $pcate['name']; ?></a></li>
+			<li><a href="<?php echo url('/category/'.$pcate['id']); ?>"><?php echo $pcate['name']; ?></a></li>
 			<?php endif; ?>
 			<li class="active"><?php echo $now_category['name']; ?></li>
 		</ul>

@@ -14,7 +14,7 @@
 		<ul class="breadcrumb">
 			<li><a href="{:url('/index')}">首页</a></li>
 			{if condition="isset($pcate)"}
-			<li><a href="{:url('/categroy/'.$pcate['id'])}">{$pcate.name}</a></li>
+			<li><a href="{:url('/category/'.$pcate['id'])}">{$pcate.name}</a></li>
 			{/if}
 			<li class="active">{$now_category.name}</li>
 		</ul>

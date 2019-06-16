@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin/view/brand/edit.html";i:1559383927;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1559383927;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin/view/brand/edit.html";i:1560589973;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1560576221;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -76,6 +76,7 @@
 				<div class="navbar-header pull-left">
 					<a href="<?php echo url('admin/Index/index'); ?>" class="navbar-brand">
 						<small>							
+							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 						</small>
 					</a>
@@ -252,6 +253,14 @@
 				</div>
 			</div>
 			</div>
+			<div class="form-group">
+				<label class="col-sm-1 control-label no-padding-left"> * 首字母分类 </label>
+				<div class="col-sm-5">
+					<div class="clearfix">
+						<input name="letter" class="col-xs-10 col-sm-5"  id="letter" value="<?php echo (isset($d['letter']) && ($d['letter'] !== '')?$d['letter']:''); ?>" type="text" style="text-transform:capitalize;" maxlength="1" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')" onblur="if(this.value.replace(/^ +| +$/g,'')=='')alert('不能为空!')">
+					</div>
+				</div>
+			</div>
 			<div class="space-4"></div>
 			
 			
@@ -308,10 +317,23 @@
 		
 
 <script>
-
+//    $('#send').click(function() {
+//        var title = document.getElementById("letter").value.trim();
+//
+//        if (title == null || title == "") {
+//            alert("标题不能为空");
+//            return false;
+//        }
+//    });
 var back_index="<?php echo url('brand/index'); ?>";
 
 $('#send').click(function(){
+    var title = document.getElementById("letter").value.trim();
+
+    if (title == null || title == "") {
+        alert("首字母不能为空");
+        return false;
+    }
 	$.post(
 		'<?php echo $action; ?>',
 		$('.form-horizontal input[type=\'text\'],.form-horizontal input[type=\'hidden\']'),
@@ -320,6 +342,7 @@ $('#send').click(function(){
 		}
 	);
 });
+
 </script>							
 
 	</body>

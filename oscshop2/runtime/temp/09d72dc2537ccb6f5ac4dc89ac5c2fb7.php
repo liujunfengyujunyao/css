@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin/view/brand/index.html";i:1559383927;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1559383927;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./oscshop/admin/view/brand/index.html";i:1560576166;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1560576221;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -76,6 +76,7 @@
 				<div class="navbar-header pull-left">
 					<a href="<?php echo url('admin/Index/index'); ?>" class="navbar-brand">
 						<small>							
+							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 							<?php echo \think\Config::get('SITE_NAME'); ?> 后台管理
 						</small>
 					</a>
