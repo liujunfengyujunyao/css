@@ -25,16 +25,48 @@ class Category extends AdminBase{
     public function index(){
     	
 		$pid=input('param.pid');
-		
-		if(!$pid){
-			$pid=0;
+
+		// halt(Db::name('category')->paginate(config('page_num')));
+		$list = Db::name('category')->paginate(config('page_num'))->each(function($item, $key){
+            $wctypeid = $item["id"]; //获取数据集中的id
+            $num = Db::name('category')->where("pid='$wctypeid'")->find(); //根据ID查询相关其他信息
+            if($num){
+            	$item['baba'] = 1;
+            }else{
+            	$item['baba'] = 2;
+             //给数据集追加字段num并赋值
+            }
+            return $item;
+        });
+		$module = "全部分类";
+		// halt($list);
+		// print_r(get_object_vars($list));die;
+
+		if($pid){
+			$list = Db::name('category')->where('pid',$pid)->paginate(config('page_num'))->each(function($item, $key){
+            $wctypeid = $item["id"]; //获取数据集中的id
+            $num = Db::name('category')->where("pid='$wctypeid'")->find(); //根据ID查询相关其他信息
+            if($num){
+            	$item['baba'] = 1;
+            }else{
+            	$item['baba'] = 2;
+             //给数据集追加字段num并赋值
+            }
+            return $item;
+        });
+			$module = DB::name('category')->where('id',$pid)->value('name');
+			
 		}
+			
 		
-		$list = Db::name('category')->where('pid',$pid)->paginate(config('page_num'));
+		$this->assign('module',$module);
+
 		$this->assign('empty', '<tr><td colspan="20">~~暂无数据</td></tr>');
 		$this->assign('list', $list);
-		
 		return $this->fetch();   
+		// $list = Db::name('category')->where('pid',$pid)->paginate(config('page_num'));
+		
+	
     }
 	
 	public function add(){

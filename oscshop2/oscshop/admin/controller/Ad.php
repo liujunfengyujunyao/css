@@ -18,8 +18,8 @@ class Ad extends AdminBase{
 	
 	protected function _initialize(){
 		parent::_initialize();
-		$this->assign('breadcrumb1','商品');
-		$this->assign('breadcrumb2','商品属性');
+		$this->assign('breadcrumb1','广告');
+		$this->assign('breadcrumb2','广告管理');
 	}
 
 	// public function index()
@@ -55,7 +55,7 @@ class Ad extends AdminBase{
 			$add = [
 				'module_name' => $post['name'],
 				'update_time' => time(),
-				'image' => $post['image'],
+				// 'image' => $post['image'],
 				'meta_description' => $post['meta_description'],
 			];
 			$result = DB::name('ad_module')->insert($add);
@@ -70,9 +70,65 @@ class Ad extends AdminBase{
 		
 			
 		}
+		$this->assign('module','添加广告模块');
 		$this->assign('action',url('Ad/module_add'));
 		return $this->fetch('module_edit');
 	}
+
+	public function module_edit()
+	{
+		$id = request()->param('id');
+		$cat = DB::name('ad_module')->find($id);
+		
+			if(request()->isPost()){
+			// halt(10);
+			// $model=osc_model('admin','category');
+			
+			$post =  input('post.');
+			
+			$save = [
+				'module_name' => $post['name'],
+				'update_time' => time(),
+				// 'image' => $post['image'],
+				'meta_description' => $post['meta_description'],
+			];
+			
+			$result = DB::name('ad_module')->where("id",$post['id'])->update($save);
+			
+			if($result){
+				storage_user_action(UID,session('user_auth.username'),config('BACKEND_USER'),'修改了广告分类');						
+					return ['success'=>'修改成功','action'=>'edit'];			
+			}else{
+				return ['error'=>'修改失败'];
+			}
+			
+			
+		
+			
+		}
+		$this->assign('module','修改广告模块');
+		$this->assign('cat',$cat);
+		$this->assign('action',url('Ad/module_edit'));
+		return $this->fetch('module_edit');
+	}
+		function module_del(){	
+			
+		$id = request()->param('id');
+		$r = DB::name('ad_module')->where('id',$id)->delete();
+		
+		if($r){
+			
+			storage_user_action(UID,session('user_auth.username'),config('BACKEND_USER'),'删除了广告模块'.input('get.id'));
+			
+			$this->redirect('Ad/module_index');
+			
+		}else{
+			
+			return $this->error('删除失败！',url('Ad/module_index'));
+		}		
+		
+	}
+	
 
 	public function ad_index()
 	{
@@ -118,5 +174,59 @@ class Ad extends AdminBase{
 		return $this->fetch('ad_edit');
 	}
 	
+		public function ad_edit()
+	{
+			$id = request()->param('id');
+			if(request()->isPost()){
+			
+			// $model=osc_model('admin','category');
+			
+			$post =  input('post.');
+			
+			$add = [
+				'name' => $post['name'],
+				'update_time' => time(),
+				'image' => $post['image'],
+				'meta_description' => $post['meta_description'],
+				'module_id' => $post['pid'],
+				'url' => $post['url'],
+			];
+			$result = DB::name('ad')->where('id',$post['id'])->update($add);
+			if($result){
+				storage_user_action(UID,session('user_auth.username'),config('BACKEND_USER'),'新增了广告');						
+					return ['success'=>'修改成功','action'=>'edit'];			
+			}else{
+				return ['error'=>'修改失败'];
+			}
+			
+			
+		
+			
+		}
+		$category = DB::name('ad_module')->field('id as module_id,module_name as name')->select();
+		$cat = DB::name('ad')->find($id);
+		$this->assign('cat',$cat);
+		$this->assign('category',$category);
+		$this->assign('action',url('Ad/ad_edit'));
+		return $this->fetch('ad_edit');
+	}
+
+	function ad_del(){	
+			
+		$id = request()->param('id');
+		$r = DB::name('ad')->where('id',$id)->delete();
+		
+		if($r){
+			
+			storage_user_action(UID,session('user_auth.username'),config('BACKEND_USER'),'删除了广告'.input('get.id'));
+			
+			$this->redirect('Ad/ad_index');
+			
+		}else{
+			
+			return $this->error('删除失败！',url('Ad/ad_index'));
+		}		
+		
+	}
 }
 ?>
