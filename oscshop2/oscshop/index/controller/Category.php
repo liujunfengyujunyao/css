@@ -20,7 +20,9 @@ class Category extends HomeBase
     public function index()
     {    
 		$param=input('param.');
-
+        $limit = isset($param['limit'])?$param['limit']:30;
+        $sort = isset($param['sort'])?$param['sort']:'sort_order';
+        $order = isset($param['order'])?$param['order']:'DESC';
 		if(!$category=Db::name('category')->find((int)$param['id'])){
 			$this->error('商品分类不存在！！');
 		}
@@ -33,14 +35,13 @@ class Category extends HomeBase
 		'keywords'=>$category['meta_keyword'],
 		'description'=>$category['meta_description']]);
 		
-		if(isset($param['a'])){
-			$this->assign('list',osc_goods()->get_attribute_goods_list(input('param.'),20));
-		}else{
-			$this->assign('list',osc_goods()->get_category_goods_list(input('param.'),20,'g.shipping,g.goods_id,g.name,g.image,g.price,gtc.category_id'));
-		}			
+//		if(isset($param['a'])){
+			$this->assign('list',osc_goods()->get_category_goods_list(input('param.'),$limit,'g.shipping,g.goods_id,g.name,g.image,g.price,gtc.category_id',$sort,$order));
+//		}
 		$this->assign('empty', '~~暂无数据');
-		
-		$this->assign('attribute', osc_goods()->get_category_attribute((int)input('param.id')));
+		$this->assign('limit','/limit/'.$limit);
+        $this->assign('sort','/sort/'.$sort.'/order/'.$order);
+//		$this->assign('attribute', osc_goods()->get_category_attribute((int)input('param.id')));
 		
 		return $this->fetch();
    

@@ -14,14 +14,18 @@
  
 namespace osc\index\controller;
 use osc\common\controller\HomeBase;
+use think\Db;
 class Index extends HomeBase
 {
     public function index()
     {    			
 		$list = osc_goods()->get_home_goods_list();
+		$banners = Db::name('ad')
+            ->where(['module_id'=>1])
+            ->select();
 		
 		$this->assign('empty', '~~暂无数据');
-		
+        $this->assign('banners',$banners);
 		$this->assign('list', $list);
 		
 		$this->assign('SEO',['title'=>config('SITE_TITLE'),'keywords'=>config('SITE_KEYWORDS'),'description'=>config('SITE_DESCRIPTION')]);

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index/index.html";i:1560576167;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560576167;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/index/index.html";i:1560700125;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560700094;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -66,6 +66,7 @@
         margin-right: 20px;
         margin-left: 0;
         color:#fff;
+        overflow: hidden;
     }
     li.dropdown>a{
         position: relative;
@@ -82,6 +83,9 @@
     }
     .owl-carousel .owl-stage{
         width:auto!important;
+    }
+    .pagination>li.active>span{
+        background: #555;
     }
   </style>
   
@@ -217,6 +221,11 @@
               </ul>
               <!-- END DROPDOWN MENU -->
             </li>
+            <li class="dropdown" id="index-nav">
+               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index'); ?>">
+                      首页
+                </a>
+            </li>
             <li class="dropdown" id="brand-nav">
               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index/brand/index'); ?>">
                   品牌专区
@@ -261,77 +270,20 @@
         <div id="carousel-example-generic" class="carousel slide carousel-slider">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <?php if(is_array($banners) || $banners instanceof \think\Collection || $banners instanceof \think\Paginator): $i = 0; $__LIST__ = $banners;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$slider): $mod = ($i % 2 );++$i;?>
+                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $key; ?>"  <?php if($key==0): ?>class="active"<?php endif; ?>></li>
+                <?php endforeach; endif; else: echo "" ;endif; ?>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <!-- First slide -->
-                <div class="item carousel-item-four active">
+                <?php if(is_array($banners) || $banners instanceof \think\Collection || $banners instanceof \think\Paginator): $i = 0; $__LIST__ = $banners;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$slider): $mod = ($i % 2 );++$i;?>
+                <div class="item carousel-item-four <?php if($key==0): ?>active<?php endif; ?>" style="background:url(/public/uploads/<?php echo $slider['image']; ?>); background-position: center;background-size: cover;">
                     <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <h2 class="margin-bottom-20 animate-delay carousel-title-v3 border-bottom-title text-uppercase" data-animation="animated fadeInDown">
-                                Tones of <br/><span class="color-red-v2">Shop UI Features</span><br/> designed
-                            </h2>
-                            <p class="carousel-subtitle-v2" data-animation="animated fadeInUp">Lorem ipsum dolor sit amet constectetuer diam <br/>
-                            adipiscing elit euismod ut laoreet dolore.</p>
-                        </div>
                     </div>
                 </div>
-                
-                <!-- Second slide -->
-                <div class="item carousel-item-five">
-                    <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <h2 class="animate-delay carousel-title-v4" data-animation="animated fadeInDown">
-                                Unlimted
-                            </h2>
-                            <p class="carousel-subtitle-v2" data-animation="animated fadeInDown">
-                                Layout Options
-                            </p>
-                            <p class="carousel-subtitle-v3 margin-bottom-30" data-animation="animated fadeInUp">
-                                Fully Responsive
-                            </p>
-                            <a class="carousel-btn" href="#" data-animation="animated fadeInUp">See More Details</a>
-                        </div>
-                        <!-- <img class="carousel-position-five animate-delay hidden-sm hidden-xs" src="/public/static/shop_res/pages/img/shop-slider/slide2/price.png" alt="Price" data-animation="animated zoomIn"> -->
-                    </div>
-                </div>
-
-                <!-- Third slide -->
-                <div class="item carousel-item-six">
-                    <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <span class="carousel-subtitle-v3 margin-bottom-15" data-animation="animated fadeInDown">
-                                Full Admin &amp; Frontend
-                            </span>
-                            <p class="carousel-subtitle-v4" data-animation="animated fadeInDown">
-                                eCommerce UI
-                            </p>
-                            <p class="carousel-subtitle-v3" data-animation="animated fadeInDown">
-                                Is Ready For Your Project
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fourth slide -->
-                <div class="item carousel-item-seven">
-                   <div class="center-block">
-                        <div class="center-block-wrap">
-                            <div class="center-block-body">
-                                <h2 class="carousel-title-v1 margin-bottom-20" data-animation="animated fadeInDown">
-                                    The most <br/>
-                                    wanted bijouterie
-                                </h2>
-                                <a class="carousel-btn" href="#" data-animation="animated fadeInUp">But It Now!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; endif; else: echo "" ;endif; ?>
             </div>
 
             <!-- Controls -->
@@ -357,15 +309,16 @@
               <div>
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress">
-                    <div>
-                      <a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>
-                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                    </div>
+                      <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank">
+                    <img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress"></a>
+                    <!--<div>-->
+                      <!--<a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>-->
+                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                    <!--</div>-->
                   </div>
-                  <h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>"><?php echo $goods['name']; ?></a></h3>
+                  <h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank"><?php echo $goods['name']; ?></a></h3>
                   <div class="pi-price">&yen; <?php echo $goods['price']; ?></div>
-                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                  <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>"  target="_blank" class="btn btn-default add2cart">加入购物车</a>
                   <div class="sticker sticker-热卖"></div>
                 </div>
               </div>
@@ -386,14 +339,14 @@
                           <div class="product-item">
                               <div class="pi-img-wrapper">
                                   <img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress">
-                                  <div>
-                                      <a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>
-                                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                                  </div>
+                                  <!--<div>-->
+                                      <!--<a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>-->
+                                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                                  <!--</div>-->
                               </div>
                               <h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>"><?php echo $goods['name']; ?></a></h3>
                               <div class="pi-price">&yen; <?php echo $goods['price']; ?></div>
-                              <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                              <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" class="btn btn-default add2cart">加入购物车</a>
                               <div class="sticker sticker-热卖"></div>
                           </div>
                       </div>
@@ -413,15 +366,15 @@
                       <div>
                           <div class="product-item">
                               <div class="pi-img-wrapper">
-                                  <img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress">
-                                  <div>
-                                      <a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>
-                                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                                  </div>
+                                  <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank"><img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress"></a>
+                                  <!--<div>-->
+                                      <!--<a href="/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">大图</a>-->
+                                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                                  <!--</div>-->
                               </div>
-                              <h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>"><?php echo $goods['name']; ?></a></h3>
+                              <h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank"><?php echo $goods['name']; ?></a></h3>
                               <div class="pi-price">&yen; <?php echo $goods['price']; ?></div>
-                              <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                              <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank" class="btn btn-default add2cart">加入购物车</a>
                               <div class="sticker sticker-热卖"></div>
                           </div>
                       </div>
@@ -941,6 +894,7 @@
     <script src="/public/static/shop_res/pages/scripts/bs-carousel.js" type="text/javascript"></script>
     <script src="/public/static/artDialog/artDialog.js"></script>
     <script src="/public/static/artDialog/iframeTools.js"></script>
+    <script src="/public/static/js/layer/layer.js"></script>
     <link href="/public/static/artDialog/skins/default.css" rel="stylesheet" type="text/css" /> 
     <script type="text/javascript">
         jQuery(document).ready(function() {
@@ -989,6 +943,12 @@
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </body>
+
+<script>
+    $(function(){
+        $('#index-nav').addClass('active');
+    });
+</script>
 
 <!-- END BODY -->
 </html>	

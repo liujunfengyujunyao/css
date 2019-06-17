@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin/view/brand/edit.html";i:1560589973;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1560576221;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./oscshop/admin/view/brand/edit.html";i:1560682553;s:62:"/var/www/html/css/oscshop2/oscshop/admin/view/public/base.html";i:1560576221;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>

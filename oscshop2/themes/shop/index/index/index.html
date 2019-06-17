@@ -5,77 +5,20 @@
         <div id="carousel-example-generic" class="carousel slide carousel-slider">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                {volist name="banners" id="slider"}
+                <li data-target="#carousel-example-generic" data-slide-to="{$key}"  {if condition='$key==0'}class="active"{/if}></li>
+                {/volist}
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <!-- First slide -->
-                <div class="item carousel-item-four active">
+                {volist name="banners" id="slider"}
+                <div class="item carousel-item-four {if condition='$key==0'}active{/if}" style="background:url(/public/uploads/{$slider.image}); background-position: center;background-size: cover;">
                     <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <h2 class="margin-bottom-20 animate-delay carousel-title-v3 border-bottom-title text-uppercase" data-animation="animated fadeInDown">
-                                Tones of <br/><span class="color-red-v2">Shop UI Features</span><br/> designed
-                            </h2>
-                            <p class="carousel-subtitle-v2" data-animation="animated fadeInUp">Lorem ipsum dolor sit amet constectetuer diam <br/>
-                            adipiscing elit euismod ut laoreet dolore.</p>
-                        </div>
                     </div>
                 </div>
-                
-                <!-- Second slide -->
-                <div class="item carousel-item-five">
-                    <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <h2 class="animate-delay carousel-title-v4" data-animation="animated fadeInDown">
-                                Unlimted
-                            </h2>
-                            <p class="carousel-subtitle-v2" data-animation="animated fadeInDown">
-                                Layout Options
-                            </p>
-                            <p class="carousel-subtitle-v3 margin-bottom-30" data-animation="animated fadeInUp">
-                                Fully Responsive
-                            </p>
-                            <a class="carousel-btn" href="#" data-animation="animated fadeInUp">See More Details</a>
-                        </div>
-                        <!-- <img class="carousel-position-five animate-delay hidden-sm hidden-xs" src="__SVIEW__/pages/img/shop-slider/slide2/price.png" alt="Price" data-animation="animated zoomIn"> -->
-                    </div>
-                </div>
-
-                <!-- Third slide -->
-                <div class="item carousel-item-six">
-                    <div class="container">
-                        <div class="carousel-position-four text-center">
-                            <span class="carousel-subtitle-v3 margin-bottom-15" data-animation="animated fadeInDown">
-                                Full Admin &amp; Frontend
-                            </span>
-                            <p class="carousel-subtitle-v4" data-animation="animated fadeInDown">
-                                eCommerce UI
-                            </p>
-                            <p class="carousel-subtitle-v3" data-animation="animated fadeInDown">
-                                Is Ready For Your Project
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fourth slide -->
-                <div class="item carousel-item-seven">
-                   <div class="center-block">
-                        <div class="center-block-wrap">
-                            <div class="center-block-body">
-                                <h2 class="carousel-title-v1 margin-bottom-20" data-animation="animated fadeInDown">
-                                    The most <br/>
-                                    wanted bijouterie
-                                </h2>
-                                <a class="carousel-btn" href="#" data-animation="animated fadeInUp">But It Now!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/volist}
             </div>
 
             <!-- Controls -->
@@ -101,15 +44,16 @@
               <div>
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="IMG_ROOT{$goods.image|resize=230,230}" class="img-responsive" alt="Berry Lace Dress">
-                    <div>
-                      <a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>
-                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                    </div>
+                      <a href="{:url('/goods/'.$goods['goods_id'])}" target="_blank">
+                    <img src="IMG_ROOT{$goods.image|resize=230,230}" class="img-responsive" alt="Berry Lace Dress"></a>
+                    <!--<div>-->
+                      <!--<a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>-->
+                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                    <!--</div>-->
                   </div>
-                  <h3><a href="{:url('/goods/'.$goods['goods_id'])}">{$goods.name}</a></h3>
+                  <h3><a href="{:url('/goods/'.$goods['goods_id'])}" target="_blank">{$goods.name}</a></h3>
                   <div class="pi-price">&yen; {$goods.price}</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                  <a href="{:url('/goods/'.$goods['goods_id'])}"  target="_blank" class="btn btn-default add2cart">加入购物车</a>
                   <div class="sticker sticker-热卖"></div>
                 </div>
               </div>
@@ -130,14 +74,14 @@
                           <div class="product-item">
                               <div class="pi-img-wrapper">
                                   <img src="IMG_ROOT{$goods.image|resize=230,230}" class="img-responsive" alt="Berry Lace Dress">
-                                  <div>
-                                      <a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>
-                                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                                  </div>
+                                  <!--<div>-->
+                                      <!--<a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>-->
+                                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                                  <!--</div>-->
                               </div>
                               <h3><a href="{:url('/goods/'.$goods['goods_id'])}">{$goods.name}</a></h3>
                               <div class="pi-price">&yen; {$goods.price}</div>
-                              <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                              <a href="{:url('/goods/'.$goods['goods_id'])}" class="btn btn-default add2cart">加入购物车</a>
                               <div class="sticker sticker-热卖"></div>
                           </div>
                       </div>
@@ -157,15 +101,15 @@
                       <div>
                           <div class="product-item">
                               <div class="pi-img-wrapper">
-                                  <img src="IMG_ROOT{$goods.image|resize=230,230}" class="img-responsive" alt="Berry Lace Dress">
-                                  <div>
-                                      <a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>
-                                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>
-                                  </div>
+                                  <a href="{:url('/goods/'.$goods['goods_id'])}" target="_blank"><img src="IMG_ROOT{$goods.image|resize=230,230}" class="img-responsive" alt="Berry Lace Dress"></a>
+                                  <!--<div>-->
+                                      <!--<a href="IMG_ROOT{$goods.image|resize=230,230}" class="btn btn-default fancybox-button">大图</a>-->
+                                      <!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">查看详情</a>-->
+                                  <!--</div>-->
                               </div>
-                              <h3><a href="{:url('/goods/'.$goods['goods_id'])}">{$goods.name}</a></h3>
+                              <h3><a href="{:url('/goods/'.$goods['goods_id'])}" target="_blank">{$goods.name}</a></h3>
                               <div class="pi-price">&yen; {$goods.price}</div>
-                              <a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+                              <a href="{:url('/goods/'.$goods['goods_id'])}" target="_blank" class="btn btn-default add2cart">加入购物车</a>
                               <div class="sticker sticker-热卖"></div>
                           </div>
                       </div>
@@ -442,4 +386,11 @@
         <!-- END TWO PRODUCTS & PROMO -->
       </div>
     </div>
+{/block}
+{block name="javascript"}
+<script>
+    $(function(){
+        $('#index-nav').addClass('active');
+    });
+</script>
 {/block}

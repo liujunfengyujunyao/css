@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:39:"./themes/shop/index/category/index.html";i:1560682220;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560576167;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:39:"./themes/shop/index/category/index.html";i:1560702935;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560700094;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -66,6 +66,7 @@
         margin-right: 20px;
         margin-left: 0;
         color:#fff;
+        overflow: hidden;
     }
     li.dropdown>a{
         position: relative;
@@ -82,6 +83,9 @@
     }
     .owl-carousel .owl-stage{
         width:auto!important;
+    }
+    .pagination>li.active>span{
+        background: #555;
     }
   </style>
   
@@ -217,6 +221,11 @@
               </ul>
               <!-- END DROPDOWN MENU -->
             </li>
+            <li class="dropdown" id="index-nav">
+               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index'); ?>">
+                      首页
+                </a>
+            </li>
             <li class="dropdown" id="brand-nav">
               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index/brand/index'); ?>">
                   品牌专区
@@ -256,14 +265,21 @@
     <!-- Header END -->
 
 
+<style>
+    .product-item{
+        border: 2px solid #fff;
+    }
+    .product-item:hover{
+        border: 2px solid #e84d1c;
+    }
+</style>
 
-
-<div class="title-wrapper">
-	<div class="container"><div class="container-inner">
-		<h1><span>MEN</span> CATEGORY</h1>
-		<em>Over 4000 Items are available here</em>
-	</div></div>
-</div>
+<!--<div class="title-wrapper">-->
+	<!--<div class="container"><div class="container-inner">-->
+		<!--<h1><span>MEN</span> CATEGORY</h1>-->
+		<!--<em>Over 4000 Items are available here</em>-->
+	<!--</div></div>-->
+<!--</div>-->
 
 <div class="main">
 	<div class="container">
@@ -314,24 +330,8 @@
                     <?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 
-				<div class="sidebar-filter margin-bottom-25">
-					<h2>Filter</h2>
-					<h3>Availability</h3>
-					<div class="checkbox-list">
-						<label><input type="checkbox"> Not Available (3)</label>
-						<label><input type="checkbox"> In Stock (26)</label>
-					</div>
-
-					<h3>Price</h3>
-					<p>
-						<label for="amount">Range:</label>
-						<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
-					</p>
-					<div id="slider-range"></div>
-				</div>
-
 				<div class="sidebar-products clearfix">
-					<h2>Bestsellers</h2>
+					<h2>热销商品</h2>
 					<div class="item">
 						<a href="shop-item.html"><img src="/public/static/shop_res/pages/img/products/k1.jpg" alt="Some Shoes in Animal with Cut Out"></a>
 						<h3><a href="shop-item.html">Some Shoes in Animal with Cut Out</a></h3>
@@ -359,27 +359,21 @@
 					</div>
 					<div class="col-md-10 col-sm-10">
 						<div class="pull-right">
-							<label class="control-label">Show:</label>
-							<select class="form-control input-sm">
-								<option value="#?limit=24" selected="selected">24</option>
-								<option value="#?limit=25">25</option>
-								<option value="#?limit=50">50</option>
-								<option value="#?limit=75">75</option>
-								<option value="#?limit=100">100</option>
+							<label class="control-label">每页展示:</label>
+							<select class="form-control input-sm" id="limit-num">
+								<option value="/limit/30" <?php if($limit=='/limit/30'): ?>selected="selected"<?php endif; ?> >30</option>
+								<option value="/limit/60"  <?php if($limit=='/limit/60'): ?>selected="selected"<?php endif; ?> >60</option>
+								<option value="/limit/90"  <?php if($limit=='/limit/90'): ?>selected="selected"<?php endif; ?> >90</option>
 							</select>
 						</div>
 						<div class="pull-right">
-							<label class="control-label">Sort&nbsp;By:</label>
-							<select class="form-control input-sm">
-								<option value="#?sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
-								<option value="#?sort=pd.name&amp;order=ASC">Name (A - Z)</option>
-								<option value="#?sort=pd.name&amp;order=DESC">Name (Z - A)</option>
-								<option value="#?sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
-								<option value="#?sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
-								<option value="#?sort=rating&amp;order=DESC">Rating (Highest)</option>
-								<option value="#?sort=rating&amp;order=ASC">Rating (Lowest)</option>
-								<option value="#?sort=p.model&amp;order=ASC">Model (A - Z)</option>
-								<option value="#?sort=p.model&amp;order=DESC">Model (Z - A)</option>
+							<label class="control-label">排序方式:</label>
+							<select class="form-control input-sm" id="sort-type">
+								<option value="/sort/sort_order/order/DESC" <?php if($sort=='/sort/sort_order/order/DESC'): ?>selected="selected"<?php endif; ?> >综合</option>
+								<option value="/sort/sale_count/order/DESC" <?php if($sort=='/sort/sale_count/order/DESC'): ?>selected="selected"<?php endif; ?> >销量</option>
+								<option value="/sort/date_added/order/DESC" <?php if($sort=='/sort/date_added/order/DESC'): ?>selected="selected"<?php endif; ?> >新品</option>
+								<option value="/sort/price/order/ASC" <?php if($sort=='/sort/price/order/ASC'): ?>selected="selected"<?php endif; ?> >价格升序</option>
+								<option value="/sort/price/order/DESC" <?php if($sort=='/sort/price/order/DESC'): ?>selected="selected"<?php endif; ?> >价格降序</option>
 							</select>
 						</div>
 					</div>
@@ -387,170 +381,32 @@
 				<!-- BEGIN PRODUCT LIST -->
 				<div class="row product-list">
 					<!-- PRODUCT ITEM START -->
+					<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$goods): $mod = ($i % 2 );++$i;?>
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="product-item">
 							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
+                                <a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank">
+								<img src="/<?php echo resize($goods['image'],230,230); ?>" class="img-responsive" alt="Berry Lace Dress">
+                                </a>
+								<!--<div>-->
+									<!--<a href="_/<?php echo resize($goods['image'],230,230); ?>" class="btn btn-default fancybox-button">Zoom</a>-->
+									<!--<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>-->
+								<!--</div>-->
 							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
+							<h3><a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank"><?php echo $goods['name']; ?></a></h3>
+							<div class="pi-price">&yen; <?php echo $goods['price']; ?></div>
+							<a href="<?php echo url('/goods/'.$goods['goods_id']); ?>" target="_blank" class="btn btn-default add2cart">加入购物车</a>
 						</div>
 					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model2.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model6.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model6.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress 2</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-				</div>
-				<div class="row product-list">
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model4.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model5.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model5.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-							<div class="sticker sticker-new"></div>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model3.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-				</div>
-				<div class="row product-list">
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model7.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-						</div>
-					</div>
-					<!-- PRODUCT ITEM END -->
-					<!-- PRODUCT ITEM START -->
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="product-item">
-							<div class="pi-img-wrapper">
-								<img src="/public/static/shop_res/pages/img/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
-								<div>
-									<a href="/public/static/shop_res/pages/img/products/model2.jpg" class="btn btn-default fancybox-button">Zoom</a>
-									<a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-								</div>
-							</div>
-							<h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-							<div class="pi-price">$29.00</div>
-							<a href="javascript:;" class="btn btn-default add2cart">加入购物车</a>
-							<div class="sticker sticker-sale"></div>
-						</div>
-					</div>
+					<?php endforeach; endif; else: echo "$empty" ;endif; ?>
 					<!-- PRODUCT ITEM END -->
 				</div>
 				<!-- END PRODUCT LIST -->
 				<!-- BEGIN PAGINATOR -->
 				<div class="row">
-					<div class="col-md-4 col-sm-4 items-info">Items 1 to 9 of 10 total</div>
+					<div class="col-md-4 col-sm-4 items-info">共 <?php echo ($list->total() ?: "0"); ?> 件商品</div>
 					<div class="col-md-8 col-sm-8">
-						<ul class="pagination pull-right">
-							<li><a href="javascript:;">&laquo;</a></li>
-							<li><a href="javascript:;">1</a></li>
-							<li><span>2</span></li>
-							<li><a href="javascript:;">3</a></li>
-							<li><a href="javascript:;">4</a></li>
-							<li><a href="javascript:;">5</a></li>
-							<li><a href="javascript:;">&raquo;</a></li>
-						</ul>
+						<?php echo $list->render(); ?>
 					</div>
 				</div>
 				<!-- END PAGINATOR -->
@@ -803,6 +659,7 @@
     <script src="/public/static/shop_res/pages/scripts/bs-carousel.js" type="text/javascript"></script>
     <script src="/public/static/artDialog/artDialog.js"></script>
     <script src="/public/static/artDialog/iframeTools.js"></script>
+    <script src="/public/static/js/layer/layer.js"></script>
     <link href="/public/static/artDialog/skins/default.css" rel="stylesheet" type="text/css" /> 
     <script type="text/javascript">
         jQuery(document).ready(function() {
@@ -856,59 +713,20 @@
 	.hover{ background:#aaa; }
 </style>
 <script>
-var attribute=get_url_attr('a');
-
-if(attribute){	 
-	 var ch = new Array;
-	 ch = attribute.split(",");
-	 if(ch.length==1){
-		 $('#a'+attribute).addClass('hover');
-	 }else if(ch.length>1){			 
-		 		 
-		 for(i=0;i<ch.length;i++){		  
-			$('#a'+ch[i]).addClass('hover');
-		}
-	 }
-}
-
-
 $(function(){
-	$('.attribute').click(function(){
-
-		if(attribute){
-			if($(this).hasClass('hover')){
-				$(this).removeClass('hover');
-			}else{
-				$(this).siblings().removeClass('hover')
-				$(this).addClass('hover');
-			}
-		}else{
-				$(this).addClass('hover');
-		}
-		
-		var length=$('#attribute li.hover').size();	
-		
-		
-			var url = "<?php echo url('/category'); ?>"+'/'+'<?php echo \think\Request::instance()->param('id'); ?>';	
-			var param='?a=';
-	
-		
-		$('#attribute li.hover').each(function(i){
-			
-			if(i<length-1){
-				param+=$('#attribute li.hover').eq(i).attr('aid')+',';
-			}else{
-				param+=$('#attribute li.hover').eq(i).attr('aid');
-			}
-			
-		});
-		
-		url+=param;
-		
-		window.location.href = url;		
-	});
     $('.jump_a').unbind();
-	
+    $('#limit-num').change(function(){
+        var url = "<?php echo url('/category'); ?>"+'/'+'<?php echo \think\Request::instance()->param('id'); ?>';
+        url +=$('#limit-num').val();
+        url +=$('#sort-type').val();
+        window.location.href = url;
+    });
+    $('#sort-type').change(function(){
+        var url = "<?php echo url('/category'); ?>"+'/'+'<?php echo \think\Request::instance()->param('id'); ?>';
+        url +=$('#sort-type').val();
+        url +=$('#limit-num').val();
+        window.location.href = url;
+    });
 });
 </script>
 

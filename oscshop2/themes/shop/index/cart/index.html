@@ -70,7 +70,7 @@
 
                 <div class="shopping-total">
                   <ul>
-                    <li>
+                    <li class="shopping-total-price">
                       <em>小计</em>
                       <strong class="price">￥{$total_price}</strong>
                     </li>
@@ -85,7 +85,7 @@
                   </ul>
                 </div>
               </div>
-              <button class="btn btn-default" type="submit">继续购物 <i class="fa fa-shopping-cart"></i></button>
+                <button class="btn btn-default" type="submit"><a href="{:url('index/index')}" style="color:#fff">继续购物 <i class="fa fa-shopping-cart"></i></a></button>
               <button class="btn btn-primary" type="submit">结算 <i class="fa fa-check"></i></button>
             </div>
             {else /}
@@ -216,7 +216,7 @@ function update_cart(id,qty,cart_id,key){
         $('.goods' + key).find("td.goods-page-price>strong").text('￥ '+json['price']);
         
         $('.goods' + key).find("td.goods-page-total>strong").text('￥ '+json['total_price']);
-        
+
         $('.shopping-total-price>strong').text('￥ '+json['total_all_price']);
         
         $('#weight').text(json['weight']);

@@ -15,6 +15,7 @@ class HomeBase extends Base{
 			header('Location:'.request()->domain().'/mobile/');
 			die();
 		}
+//		dump(osc_goods()->get_goods_category());die;
 		$this->assign('top_nav',osc_goods()->get_goods_category());
 		$cart=osc_cart();
 		$cart_list=$cart->get_all_goods(member('uid'));		

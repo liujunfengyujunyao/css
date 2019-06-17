@@ -97,8 +97,8 @@ class AdminBase extends Base{
 			$result = $this->validate($data,$table_name);			
 			if($result!==true){
 				return ['error'=>$result];
-			}			
-			$r=Db::name($table_name)->update($data,false,true);			
+			}
+			$r=Db::name($table_name)->update($data,false,true);
 			if($r){				
 				storage_user_action(UID,session('user_auth.username'),config('BACKEND_USER'),$user_action);							
 				return ['success'=>'更新成功','action'=>'edit'];

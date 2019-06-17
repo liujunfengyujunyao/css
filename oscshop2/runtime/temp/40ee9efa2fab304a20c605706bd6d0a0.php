@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/brand/index.html";i:1560232766;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560576167;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/shop/index/brand/index.html";i:1560232766;s:61:"/var/www/html/css/oscshop2/themes/shop/index/public/base.html";i:1560700094;}*/ ?>
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -66,6 +66,7 @@
         margin-right: 20px;
         margin-left: 0;
         color:#fff;
+        overflow: hidden;
     }
     li.dropdown>a{
         position: relative;
@@ -82,6 +83,9 @@
     }
     .owl-carousel .owl-stage{
         width:auto!important;
+    }
+    .pagination>li.active>span{
+        background: #555;
     }
   </style>
   
@@ -216,6 +220,11 @@
                   <?php endforeach; endif; else: echo "" ;endif; ?>
               </ul>
               <!-- END DROPDOWN MENU -->
+            </li>
+            <li class="dropdown" id="index-nav">
+               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index'); ?>">
+                      首页
+                </a>
             </li>
             <li class="dropdown" id="brand-nav">
               <a class="dropdown-toggle" data-toggle="" data-target="#" href="<?php echo url('/index/brand/index'); ?>">
@@ -544,6 +553,7 @@
     <script src="/public/static/shop_res/pages/scripts/bs-carousel.js" type="text/javascript"></script>
     <script src="/public/static/artDialog/artDialog.js"></script>
     <script src="/public/static/artDialog/iframeTools.js"></script>
+    <script src="/public/static/js/layer/layer.js"></script>
     <link href="/public/static/artDialog/skins/default.css" rel="stylesheet" type="text/css" /> 
     <script type="text/javascript">
         jQuery(document).ready(function() {

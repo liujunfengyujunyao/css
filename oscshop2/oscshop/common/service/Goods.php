@@ -69,7 +69,7 @@ class Goods{
 	 * @param string $field 取出字段
 	 * @return object(think\paginator\Collection) 
 	 */
-	public function get_category_goods_list($filter,$page_num=10,$field='*'){
+	public function get_category_goods_list($filter,$page_num=30,$field='*',$sort='sort_order',$order="DESC"){
 		
 		$map=[];
 		$query=[];
@@ -101,7 +101,7 @@ class Goods{
 		
 		return Db::name('goods')->alias('g')->field($field)		
 		->join('__GOODS_TO_CATEGORY__ gtc','g.goods_id = gtc.goods_id')
-		->where($map)->order('g.goods_id desc')
+		->where($map)->order('g.'.$sort.' ',$order)
 		->paginate($page_num,false,['query'=>$query]);
 		
 	}
@@ -234,10 +234,10 @@ class Goods{
 	//取得商品分类
 	public function get_goods_category(){
 			
-		if(!$home_goods_category= cache('home_goods_category')){
+//		if(!$home_goods_category= cache('home_goods_category')){
 			$home_goods_category=list_to_tree(Db::name('category')->field('id,pid,name')->order('sort_order asc')->select());
-			cache('home_goods_category', $home_goods_category);
-		}	
+//			cache('home_goods_category', $home_goods_category);
+//		}
 			
 		return $home_goods_category;
 	}
